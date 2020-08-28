@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Price Prediction Airbnb Tokyo</title>
+</head>
+<body>
+    <h1>Prediksi Harga Airbnb</h1>
+
+    <form method="POST" action="http://127.0.0.1:5000/prediksi">
+        Bedrooms :  <input type="number" name="bedrooms"/>
+        <br>
+        Accommodates : <input type="number" name="ac"/>
+        <br>
+        GuestsIncluded : <input type="number" name="gi"/>
+        <br>
+        security_deposit : <input type="number" name="sd"/>
+        <br>
+        reviews_score_rating : <input type="number" name="rs"/>
+        <input type="submit" value="Predict"/>
+
+    </form>
+
+</body>
+</html>
