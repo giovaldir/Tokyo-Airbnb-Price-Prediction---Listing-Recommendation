@@ -11,6 +11,10 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 - Evaluation Metrics (R2,MAE,MSE,RMSE)
 - Conclusion
 
+### Numerical Visualization
+
+Numerical-2.png
+
   
 ### Contact Me
 
