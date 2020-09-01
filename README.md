@@ -17,5 +17,5 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 | Contact Method |  |
 | --- | --- |
 | Professional Email | giovaldi8@gmail.com |
-| Instagram | @ giovaldirch |
+| Instagram | https://www.instagram.com/giovaldirch/ |
 | LinkedIn | https://id.linkedin.com/in/giovaldi-r-00263411a |
