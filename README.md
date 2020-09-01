@@ -13,7 +13,7 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 
 ### Numerical Visualization
 
-Numerical-2.png
+![](Numerical-2.png)
 
   
 ### Contact Me
