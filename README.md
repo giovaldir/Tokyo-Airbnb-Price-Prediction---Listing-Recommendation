@@ -1,4 +1,6 @@
-# Airbnb Tokyo Project - Price Prediction 
+# Airbnb Tokyo Project - Price Prediction
+
+![](tokyo-wallpaper.jpg)
 
 Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatnya Tokyo pada tahun 2010. Berdasarkan perkembangan waktu, ada beberapa analisis yang menyatakan bahwa penerapan Minpaku Law oleh pemerintah di tahun 2018 menjadi titik terbawah untuk perkembangan Airbnb Tokyo. Seiring berjalannya waktu, Airbnb Tokyo mulai bangkit dan di tahun 2019 diumumkan sebagai Sponsor dari perhelatan Olimpiade Internasional yaitu 2020 Olympics. Tentu hal ini akan memberikan dampak positif bagi Pengusaha Airbnb, sehingga diharuskan untuk mengetahui setiap celah untuk mencari profit. Penempatan lokasi Stadium terhadap Airbnb pun dirasa sangat berdampak di saat acara dengan estimasi 600.000 pengunjung asing ini. Diantara hal tersebut, satu yang sangat krusial untuk memperoleh profit adalah HARGA. Disini saya akan mencoba memprediksi harga berdasarkan pendekatan Supervised Learning : Regression.
 
@@ -11,10 +13,13 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 - Evaluation Metrics (R2,MAE,MSE,RMSE)
 - Conclusion
 
-### Numerical Visualization
+### Numerical Univariate Visualization
 
 ![](Numerical-2.png)
 
+### Categorical Univariate Visualization
+
+![](Categorical-2.png)
   
 ### Contact Me
 
