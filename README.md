@@ -20,7 +20,11 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 ### Categorical Univariate Visualization
 
 ![](Categorical-2.png)
-  
+
+### Dashboard Flask
+
+![](Dashboard.jpeg)
+
 ### Contact Me
 
 | Contact Method |  |
