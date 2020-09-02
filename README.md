@@ -47,7 +47,7 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 | XGBoost |  |
 | --- | --- |
 | R square | 0.78 |
-| MAE | 0.3 |
+| MAE | 0.2 |
 | MSE | 0.2 |
 | RMSE | 0.4 |
 
