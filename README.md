@@ -1,4 +1,4 @@
-# Airbnb Tokyo Project - Price Prediction 
+# Tokyo Airbnb Project - Price Prediction 
 http://insideairbnb.com/
 
 ![](tokyo-wallpaper.jpg)
