@@ -54,7 +54,7 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 | RMSE | 0.4 |
 
 ### Recommendation System
-
+![](Recommendation System.png)
 
 
 ### Contact Me
