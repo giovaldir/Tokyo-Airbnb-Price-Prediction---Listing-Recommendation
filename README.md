@@ -9,6 +9,8 @@ http://insideairbnb.com/
   <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
   <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
   <img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
+
+<br />
 <br />
 
 ![](tokyo-wallpaper.jpg)
@@ -60,8 +62,7 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 ![](Categorical-2.png)
 
 #### Amenities
-![](Screen Shot 2020-09-15 at 13.50.40.png)
-
+<a href="https://github.com/giovaldir"><img src="https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/Screen Shot 2020-09-15 at 13.50.40.png" alt="GiovaldiRC" ></a>
 
 ### Mendapatkan analisis data Airbnb yang legal berdasarkan aturan "Minpaku Law" mengenai maksimum hari dapat beroperasinya sebuah Airbnb pertahun.
 - Terdapat 7526 airbnb yang legal atau mematuhi peraturan terkait Minpaku Law tentang 180 hari beroperasinya sebuah Airbnb. Berdasarkan pemetaan data yang legal banyak terlihat di lokasi dekat dengan Pusat kota.
