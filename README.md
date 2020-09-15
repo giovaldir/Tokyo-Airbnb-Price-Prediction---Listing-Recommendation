@@ -127,7 +127,9 @@ Setelah ditelaah dampak dari Minpaku Law sangat terlihat dari penurunan jumlah a
 <p align="center">
   <a href="https://www.youtube.com/watch?v=FOabQZHT4qY"><img src="https://media.giphy.com/media/kRkJXYahXjSE0/giphy.gif" alt="GiovaldiRC" width="400" height="250"></a>
 </p>
-                                                                                                        Click for more information
+<p align="center">
+Click for more information
+</p>
 
 ### CONNECT WITH ME
 
