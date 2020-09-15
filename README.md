@@ -32,17 +32,18 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 
 ### STEPS
 
-- Handling Missing Values, Duplicated
-- Exploratory Data Analysis (EDA) Visualization with pandas, seaborn,matplotlib,folium and wordcloud
-- Feature Selection with Theils U, Heatmap
-- Feature Engineering with Handling Outliers, Transformer, Scaling, Adding Feature, Extracting, Spliting
-- Machine Learning Model (Linear Regression, Random Forest, KNN, XGBoost, GradientBoosting) with Hyperparameter Tuning (GridSearch)
-- Evaluation Metrics (R2,MAE,MSE,RMSE)
-- Recommendation System (Content-Based)
+- Handling Missing Values, Duplicated [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/1.FINAL%20PROJECT%20-%20Handling%20Missing%2CDuplicated%20Airbnb.ipynb)
+- Exploratory Data Analysis (EDA) Visualization with pandas, seaborn,matplotlib,folium and wordcloud [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/2.FINAL%20PROJECT%20-%20Exploratory%20Data%20Analysis%20Airbnb-2.ipynb)
+- Feature Selection with Theils U, Heatmap [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/2.FINAL%20PROJECT%20-%20Exploratory%20Data%20Analysis%20Airbnb-2.ipynb)
+- Feature Engineering with Handling Outliers, Transformer, Scaling, Adding Feature, Extracting, Spliting [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/6.FINAL%20PROJECT%20-%20Supervised%20Machine%20Learning%20Airbnb%20(Yeo%20Johnson)-2.ipynb)
+- Machine Learning Model (Linear Regression, Random Forest, KNN, XGBoost, GradientBoosting) with Hyperparameter Tuning (GridSearch) [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/6.FINAL%20PROJECT%20-%20Supervised%20Machine%20Learning%20Airbnb%20(Yeo%20Johnson)-2.ipynb)
+- Evaluation Metrics (R2,MAE,MSE,RMSE) [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/6.FINAL%20PROJECT%20-%20Supervised%20Machine%20Learning%20Airbnb%20(Yeo%20Johnson)-2.ipynb)
+- Recommendation System (Content-Based) [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/8.FINAL%20PROJECT%20RECOMMENDATION%20SYSTEM%20CONTENT%20BASED-2.ipynb)
 - Conclusion
 
 ### EXPLORATORY DATA ANALYSIS
 - proses analisis untuk mendapatkan insight dari data dengan metode pendekatan terhadap grafis dan tabel untuk memaksimalkan wawasan dan menguji hipotesis
+
 
 #### Neighbourhood
 
@@ -74,10 +75,6 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 - Untuk akomodasi sendiri ditahun 2020 untuk jarak yang dekat naik menjadi 11% dari tahun 2019/ tahun pengumuman Tokyo menjadi Host 2020 Olympics dan 48% dari tahun 2018. Kenaikkan nya 2 hampir kali lipat. 
 - Untuk bedrooms dari tahun 2019 untuk satu kamar, naik 7-8%. Untuk area sendiri rata-rata harga termahal sekarang adalah Shibuya dengan rata-rata 26317/ 3juta rupiah. Siapa yang tidak tahu Shibuya? Shibuya Crossing adalah tempat penyebrangan terpadat di dunia, dijuluki sebagai area tak pernah tidur 24 jam non stop. Untuk data top 5 Shibuya Ku', 'Shinjuku Ku', 'Toshima Ku', 'Taito Ku', 'Sumida Ku juga tidak kalah menarik. Dimana Shibuya merupakan area dengan rata-rata harga termahal.
 
-### DASHBOARD
-
-![](Dashboard.jpeg)
-
 ### Mendapatkan prediksi harga Airbnb dengan menggunakan Supervised Learning Regression sebagai kunci utama dalam menyewakan Airbnb serta mendapatkan profit.
 ### EVALUATION METRICS
 - proses mengukur kinerja model dengan berbagai parameter penentu : R2, MAE,MSE,RMSE
@@ -95,15 +92,22 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 
 ### Mendapatkan rekomendasi space Airbnb dengan Recommendation System Content-Based untuk membantu Pengusaha Airbnb yang telah berkecimpung di dunia ini agar lebih maksimal dalam memperoleh spesifikasi terbaik berdasarkan area top 5 terprofit.
 ### RECOMMENDATION SYSTEM
+
 - proses untuk memberikan rekomendasi space dengan melihat Airbnb yang telah memiliki reviews score rating 100 di setiap area/neighbourhood yang paling profit. Sasaran dari rekomendasi ini adalah Pengusaha Airbnb lama/ yang telah berbisnis namun cenderung kurang profit selama ini. Dengan memprovide rekomendasi ini, Pengusaha Airbnb (LAMA) akan mengetahui apa yang disukai pasar, spesifikasi apa yang sebenarnya dibutuhkan Airbnb nya di neighbourhood tersebut, dan tentu nya akan memudahkan sang pengusaha untuk memperbaiki kegagalan sebelumnya.
 
-<a href="https://github.com/giovaldir"><img src="https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/Recommendation System.png" alt="GiovaldiRC" ></a>
+<a href="https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/8.FINAL%20PROJECT%20RECOMMENDATION%20SYSTEM%20CONTENT%20BASED-2.ipynb"><img src="https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/Recommendation System.png" alt="GiovaldiRC" ></a>
+click for more information
 
 ### CONCLUSION
 
 Setelah ditelaah dampak dari Minpaku Law sangat terlihat dari penurunan jumlah airbnb, beberapa neighbourhood yang tidak dapat berpartisipasi lagi di usaha ini  hingga penurunan harga di tahun-tahun 2017-2018. Akan tetapi dengan adanya 2020 Olympics, akhirnya Airbnb selaku sponsor dapat bangkit dan dapat menjadi yang diminati lagi. Setelah 2018, harga pun kian melonjak, terlebih lagi untuk yang dekat dengan lokasi Venue 2020 Olympics. Jadi untuk segi pengaruh harga, bagi Pengusaha yang ingin memulai bisnis Airbnb ini sebaiknya melihat kedekatan lokasi Venue sebagai faktor yang menjanjikan salah satu contoh "Shibuya Ku', 'Shinjuku Ku', 'Toshima Ku', 'Taito Ku', 'Sumida Ku" yang terus mengalami kenaikan bahkan hingga 30% dan terus naik hingga bulan awal tahun 2020. Setelah didapatkan berbagai keunggulan lokasi ini menurut Forbes kita juga dapat melihat trend beberapa tipe ruangan yang ditawarkan di Tokyo ini, ada dua yang menjanjikan yaitu Entire home/Apt dan Private room yang mana menekankan privasi yang baik untuk pengunjung. Setelah itu bagi Pengusaha Airbnb lama pun dari hasil Recommender System terdapat beberapa Airbnb yang memiliki kriteria space yang dapat dijadikan acuan yang mana memiliki rating terbaik di beberapa area profit tentunya. Hal ini dapat memperbaiki sistem usaha Pengusaha lama ini. Setelah seluruh kebutuhan tempat, spesifikasi telah terpenuhi, jangan lupa dengan detailnya yaitu ada beberapa perlengkapan yang perlu ada di Airbnb anda untuk di Tokyo ini yaitu seperti Heater, Washer, Wifi, Smoke Alarm dll. Dengan adanya hal-hal tersebut penentuan harga pun dapat maksimal dan menyelesaikan problem-problem di project ini.
 
+### DASHBOARD
+
+![](Dashboard.jpeg)
+
 ### REFERENCES
+
 - https://www.forbes.com/sites/sofialottopersio/2019/11/18/airbnb-olympic-partnership-ahead-ipo/#16377abb57a1
 - https://www.businessinsider.com/airbnb-wins-reported-500-million-partnership-for-the-2020-tokyo-olympics-2019-11?r=US&IR=T
 - https://www.nytimes.com/2019/10/01/travel/the-tokyo-2020-olympics-what-you-need-to-know.html
