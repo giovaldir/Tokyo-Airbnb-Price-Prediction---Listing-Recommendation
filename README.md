@@ -121,7 +121,8 @@ Setelah ditelaah dampak dari Minpaku Law sangat terlihat dari penurunan jumlah a
 ### THANKS TO
 - God
 - Mama dan Papa
-- Teman-teman JCDS BSD, Bandung dan Mas Khumaeni selaku pengajar yang selalu sabar menghadapi saya yang malas dan cenderung ga connect saat sore
+- Teman-teman JCDS BSD, Bandung yang memberikan semangat untuk menyelesaikan ujian chunnin ini
+- dan Mas Khumaeni selaku pengajar yang selalu sabar menghadapi saya yang malas dan cenderung ga connect saat sore
 
 <a href="https://github.com/giovaldir"><img src="https://media.giphy.com/media/kRkJXYahXjSE0/giphy.gif" alt="GiovaldiRC" ></a>
 
