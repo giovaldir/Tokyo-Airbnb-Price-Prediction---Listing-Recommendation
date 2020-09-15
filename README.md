@@ -77,6 +77,7 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 
 ![](Dashboard.jpeg)
 
+### Mendapatkan prediksi harga Airbnb dengan menggunakan Supervised Learning Regression sebagai kunci utama dalam menyewakan Airbnb serta mendapatkan profit.
 ### EVALUATION METRICS
 - proses mengukur kinerja model dengan berbagai parameter penentu : R2, MAE,MSE,RMSE
 
@@ -91,7 +92,7 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 - Berdasarkan hasil diatas, hasil yang saya dapatkan untuk MSE sudah memuaskan bagi saya karena MSE menandakan error yang didapatkan dari rata-rata actual - prediksi, dikuadratkan yang mana semakin kecil error maka semakin baik model tersebut
 - Berdasarkan hasil diatas hasil yang saya dapatkan untuk MAE juga sangat memuaskan bagi saya karena MAE menandakan error yang didapatkan dari actual - prediksi yang diabsolutkan yang mana baik apabila bernilai kecil atau mendekati 0
 
-
+### Mendapatkan rekomendasi space Airbnb dengan Recommendation System Content-Based untuk membantu Pengusaha Airbnb yang telah berkecimpung di dunia ini agar lebih maksimal dalam memperoleh spesifikasi terbaik berdasarkan area top 5 terprofit.
 ### RECOMMENDATION SYSTEM
 - proses untuk memberikan rekomendasi space dengan melihat Airbnb yang telah memiliki reviews score rating 100 di setiap area/neighbourhood yang paling profit. Sasaran dari rekomendasi ini adalah Pengusaha Airbnb lama/ yang telah berbisnis namun cenderung kurang profit selama ini. Dengan memprovide rekomendasi ini, Pengusaha Airbnb (LAMA) akan mengetahui apa yang disukai pasar, spesifikasi apa yang sebenarnya dibutuhkan Airbnb nya di neighbourhood tersebut, dan tentu nya akan memudahkan sang pengusaha untuk memperbaiki kegagalan sebelumnya.
 
