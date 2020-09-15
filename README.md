@@ -34,6 +34,7 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 
 - Handling Missing Values, Duplicated
 - Exploratory Data Analysis (EDA) Visualization with pandas, seaborn,matplotlib,folium and wordcloud
+- Feature Selection with Theils U, Heatmap
 - Feature Engineering with Handling Outliers, Transformer, Scaling, Adding Feature, Extracting, Spliting
 - Machine Learning Model (Linear Regression, Random Forest, KNN, XGBoost, GradientBoosting) with Hyperparameter Tuning (GridSearch)
 - Evaluation Metrics (R2,MAE,MSE,RMSE)
