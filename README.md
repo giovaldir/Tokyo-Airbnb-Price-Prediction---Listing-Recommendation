@@ -102,7 +102,20 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 
 Setelah ditelaah dampak dari Minpaku Law sangat terlihat dari penurunan jumlah airbnb, beberapa neighbourhood yang tidak dapat berpartisipasi lagi di usaha ini  hingga penurunan harga di tahun-tahun 2017-2018. Akan tetapi dengan adanya 2020 Olympics, akhirnya Airbnb selaku sponsor dapat bangkit dan dapat menjadi yang diminati lagi. Setelah 2018, harga pun kian melonjak, terlebih lagi untuk yang dekat dengan lokasi Venue 2020 Olympics. Jadi untuk segi pengaruh harga, bagi Pengusaha yang ingin memulai bisnis Airbnb ini sebaiknya melihat kedekatan lokasi Venue sebagai faktor yang menjanjikan salah satu contoh "Shibuya Ku', 'Shinjuku Ku', 'Toshima Ku', 'Taito Ku', 'Sumida Ku" yang terus mengalami kenaikan bahkan hingga 30% dan terus naik hingga bulan awal tahun 2020. Setelah didapatkan berbagai keunggulan lokasi ini menurut Forbes kita juga dapat melihat trend beberapa tipe ruangan yang ditawarkan di Tokyo ini, ada dua yang menjanjikan yaitu Entire home/Apt dan Private room yang mana menekankan privasi yang baik untuk pengunjung. Setelah itu bagi Pengusaha Airbnb lama pun dari hasil Recommender System terdapat beberapa Airbnb yang memiliki kriteria space yang dapat dijadikan acuan yang mana memiliki rating terbaik di beberapa area profit tentunya. Hal ini dapat memperbaiki sistem usaha Pengusaha lama ini. Setelah seluruh kebutuhan tempat, spesifikasi telah terpenuhi, jangan lupa dengan detailnya yaitu ada beberapa perlengkapan yang perlu ada di Airbnb anda untuk di Tokyo ini yaitu seperti Heater, Washer, Wifi, Smoke Alarm dll. Dengan adanya hal-hal tersebut penentuan harga pun dapat maksimal dan menyelesaikan problem-problem di project ini.
 
-## CONNECT WITH ME
+### REFERENCES
+- https://www.forbes.com/sites/sofialottopersio/2019/11/18/airbnb-olympic-partnership-ahead-ipo/#16377abb57a1
+- https://www.businessinsider.com/airbnb-wins-reported-500-million-partnership-for-the-2020-tokyo-olympics-2019-11?r=US&IR=T
+- https://www.nytimes.com/2019/10/01/travel/the-tokyo-2020-olympics-what-you-need-to-know.html
+- https://mainichi.jp/english/articles/20180615/p2a/00m/0na/028000c
+- https://phys.org/news/2018-06-airbnb-cancel-japan-law.html#:~:text=Rental%20site%20Airbnb%20said%20Thursday,for%20the%20%22extraordinary%20disruption.%22
+- https://www.japantimes.co.jp/community/2018/04/01/how-tos/new-minpaku-law-will-alter-japans-rental-hospitality-landscape/
+- https://www.olympic.org/tokyo-2020
+- https://www.sakura-house.com/?gclid=CjwKCAjwzIH7BRAbEiwAoDxxTnL4DxKBxphjUND7Vgihq2WgdUgxd7Q4M723hEmUpErQp0KtV5-WtRoCrLcQAvD_BwE
+- https://www.airbnb.jp/
+
+
+
+### CONNECT WITH ME
 
 [<img align="left" alt="giovaldir | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="giovaldir | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
