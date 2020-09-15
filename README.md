@@ -120,7 +120,7 @@ Setelah ditelaah dampak dari Minpaku Law sangat terlihat dari penurunan jumlah a
 - https://www.sakura-house.com/?gclid=CjwKCAjwzIH7BRAbEiwAoDxxTnL4DxKBxphjUND7Vgihq2WgdUgxd7Q4M723hEmUpErQp0KtV5-WtRoCrLcQAvD_BwE
 - https://www.airbnb.jp/
 
-### THANKS TO
+### TERIMAKASIH BANYAK
 - God
 - Mama dan Papa
 - Teman-teman JCDS BSD, Bandung yang memberikan semangat untuk menyelesaikan dan mengumpulkan Infinity Gauntlet terakhir
