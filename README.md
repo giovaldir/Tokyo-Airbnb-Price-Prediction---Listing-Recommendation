@@ -44,6 +44,7 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 
 ### EXPLORATORY DATA ANALYSIS (general)
 - proses analisis untuk mendapatkan insight dari data dengan metode pendekatan terhadap grafis dan tabel untuk memaksimalkan wawasan dan menguji hipotesis
+
 [FULL EDA](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/2.FINAL%20PROJECT%20-%20Exploratory%20Data%20Analysis%20Airbnb-2.ipynb)
 
 #### Neighbourhood
