@@ -123,7 +123,7 @@ Setelah ditelaah dampak dari Minpaku Law sangat terlihat dari penurunan jumlah a
 ### TERIMAKASIH BANYAK
 - God
 - Mama dan Papa
-- Teman-teman JCDS BSD, Bandung yang memberikan semangat untuk menyelesaikan dan mengumpulkan Infinity Gauntlet terakhir [Thanos](https://www.youtube.com/watch?v=ombVBtuK47k)
+- Teman-teman JCDS BSD, Bandung yang memberikan semangat untuk menyelesaikan dan mengumpulkan Infinity Gauntlet terakhir [Thanos](https://www.youtube.com/watch?v=9VrjneFdZFI)
 - Mas Khumaeni selaku pengajar yang selalu sabar menghadapi saya yang malas dan cenderung ga connect saat sore
 - Pedro Domingos (author of "The Master Algorithm" book)
 - Ken Jee (Data Science Expert) [Youtube](https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg)
