@@ -118,7 +118,12 @@ Setelah ditelaah dampak dari Minpaku Law sangat terlihat dari penurunan jumlah a
 - https://www.sakura-house.com/?gclid=CjwKCAjwzIH7BRAbEiwAoDxxTnL4DxKBxphjUND7Vgihq2WgdUgxd7Q4M723hEmUpErQp0KtV5-WtRoCrLcQAvD_BwE
 - https://www.airbnb.jp/
 
+### THANKS TO
+- God
+- Mama dan Papa
+- Teman-teman JCDS BSD, Bandung dan Mas Khumaeni selaku pengajar yang selalu sabar menghadapi saya yang malas dan cenderung ga connect saat sore
 
+<a href="https://github.com/giovaldir"><img src="https://media.giphy.com/media/kRkJXYahXjSE0/giphy.gif" alt="GiovaldiRC" ></a>
 
 ### CONNECT WITH ME
 
