@@ -123,8 +123,12 @@ Setelah ditelaah dampak dari Minpaku Law sangat terlihat dari penurunan jumlah a
 ### THANKS TO
 - God
 - Mama dan Papa
-- Teman-teman JCDS BSD, Bandung yang memberikan semangat untuk menyelesaikan ujian chunnin ini
-- dan Mas Khumaeni selaku pengajar yang selalu sabar menghadapi saya yang malas dan cenderung ga connect saat sore
+- Teman-teman JCDS BSD, Bandung yang memberikan semangat untuk menyelesaikan dan mengumpulkan Infinity Gauntlet terakhir
+- Mas Khumaeni selaku pengajar yang selalu sabar menghadapi saya yang malas dan cenderung ga connect saat sore
+- Ken Jee
+- Krish Naik
+- Pedro Domingos (author of "The Master Algorithm" book)
+- TORA BIKA Gilus Mix
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=FOabQZHT4qY"><img src="https://media.giphy.com/media/kRkJXYahXjSE0/giphy.gif" alt="GiovaldiRC" width="400" height="250"></a>
