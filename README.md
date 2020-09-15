@@ -93,7 +93,7 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 
 
 ### RECOMMENDATION SYSTEM
-- proses untuk memberikan rekomendasi space berdasarkan Airbnb yang telah memiliki reviews score rating 100 di setiap area yang paling profit. Rekomendasi akan dilakukan berdasarkan kemiripan score dan space yang disediakan oleh Airbnb tersebut. Dengan memprovide rekomendasi ini, Pengusaha Airbnb (LAMA) akan mengetahui apa yang disukai pasar, spesifikasi apa yang sebenarnya dibutuhkan Airbnb nya di neighbourhood tersebut, dan tentu nya akan memudahkan sang pengusaha untuk memperbaiki yang telah sebelumnya kurang profit.
+- proses untuk memberikan rekomendasi space dengan melihat Airbnb yang telah memiliki reviews score rating 100 di setiap area/neighbourhood yang paling profit. Sasaran dari rekomendasi ini adalah Pengusaha Airbnb lama/ yang telah berbisnis namun cenderung kurang profit selama ini. Dengan memprovide rekomendasi ini, Pengusaha Airbnb (LAMA) akan mengetahui apa yang disukai pasar, spesifikasi apa yang sebenarnya dibutuhkan Airbnb nya di neighbourhood tersebut, dan tentu nya akan memudahkan sang pengusaha untuk memperbaiki kegagalan sebelumnya.
 
 <a href="https://github.com/giovaldir"><img src="https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/Recommendation System.png" alt="GiovaldiRC" ></a>
 
