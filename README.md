@@ -18,6 +18,21 @@
 
 Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatnya Tokyo pada tahun 2010. Berdasarkan perkembangan waktu, ada beberapa riset yang menyatakan bahwa penerapan Minpaku Law oleh pemerintah di tahun 2018 menjadi titik terbawah dalam perkembangan Airbnb Tokyo. Seiring berjalannya waktu, Airbnb Tokyo mulai bangkit dan di tahun 2019 diumumkan sebagai Sponsor dari perhelatan Olimpiade Internasional yaitu 2020 Olympics. Tentu hal ini akan memberikan dampak positif bagi Pengusaha Airbnb, sehingga diharuskan untuk mengetahui setiap celah untuk mendapatkan profit. Penempatan lokasi Stadium terhadap Airbnb pun dirasa sangat berdampak di saat acara dengan estimasi 600.000 pengunjung asing ini berlangsung. Diantara hal tersebut, satu yang sangat krusial untuk memperoleh profit adalah HARGA. Disini saya akan mencoba memprediksi harga berdasarkan pendekatan Supervised Learning : Regression untuk membantu Pengusaha Airbnb yang baru akan berkecimpung ke dalam bisnis Airbnb dan juga memberikan Recommendation System berdasarkan pendekatan terhadap rating dan space untuk membantu Pengusaha Airbnb yang telah masuk di dalam bisnis ini (cenderung kurang profit) agar dapat memperbaiki cara bisnisnya. 
 
+## PRESENTATION
+
+[PDF](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/Get nap alerts when energy levels drop, and be woken at the right time to feel refreshed.pdf)
+
+## STEPS
+
+- Handling Missing Values, Duplicated [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/1.FINAL%20PROJECT%20-%20Handling%20Missing%2CDuplicated%20Airbnb.ipynb)
+- Exploratory Data Analysis (EDA) Visualization with pandas, seaborn,matplotlib,folium and wordcloud [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/2.FINAL%20PROJECT%20-%20Exploratory%20Data%20Analysis%20Airbnb-2.ipynb)
+- Feature Selection with Theils U, Heatmap [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/2.FINAL%20PROJECT%20-%20Exploratory%20Data%20Analysis%20Airbnb-2.ipynb)
+- Feature Engineering with Handling Outliers, Transformer, Scaling, Adding Feature, Extracting, Spliting [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/6.FINAL%20PROJECT%20-%20Supervised%20Machine%20Learning%20Airbnb%20(Yeo%20Johnson)-2.ipynb)
+- Machine Learning Model (Linear Regression, Random Forest, KNN, XGBoost, GradientBoosting) with Hyperparameter Tuning (GridSearch) [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/6.FINAL%20PROJECT%20-%20Supervised%20Machine%20Learning%20Airbnb%20(Yeo%20Johnson)-2.ipynb)
+- Evaluation Metrics (R2,MAE,MSE,RMSE) [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/6.FINAL%20PROJECT%20-%20Supervised%20Machine%20Learning%20Airbnb%20(Yeo%20Johnson)-2.ipynb)
+- Recommendation System (Content-Based) [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/8.FINAL%20PROJECT%20RECOMMENDATION%20SYSTEM%20CONTENT%20BASED-2.ipynb)
+- Conclusion
+
 ## PROBLEMS
 
 - Pengusaha Airbnb tidak mengetahui peraturan ketat terkait persyaratan Minpaku Law yang dapat menyebabkan pembatalan operasi.
@@ -30,17 +45,6 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 - Mendapatkan Analisis terkait perkembangan untuk Airbnb yang berlokasi dekat dengan venue yang akan dipakai pada 2020 Olympics (pandas,folium,seaborn,matplotlib,wordcloud)
 - Mendapatkan prediksi harga Airbnb dengan menggunakan Supervised Learning Regression sebagai kunci utama dalam menyewakan Airbnb serta mendapatkan profit.
 - Mendapatkan rekomendasi space Airbnb dengan Recommendation System Content-Based untuk membantu Pengusaha Airbnb yang telah berkecimpung di dunia ini agar lebih maksimal dalam memperoleh spesifikasi terbaik berdasarkan area top 5 terprofit.
-
-### STEPS
-
-- Handling Missing Values, Duplicated [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/1.FINAL%20PROJECT%20-%20Handling%20Missing%2CDuplicated%20Airbnb.ipynb)
-- Exploratory Data Analysis (EDA) Visualization with pandas, seaborn,matplotlib,folium and wordcloud [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/2.FINAL%20PROJECT%20-%20Exploratory%20Data%20Analysis%20Airbnb-2.ipynb)
-- Feature Selection with Theils U, Heatmap [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/2.FINAL%20PROJECT%20-%20Exploratory%20Data%20Analysis%20Airbnb-2.ipynb)
-- Feature Engineering with Handling Outliers, Transformer, Scaling, Adding Feature, Extracting, Spliting [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/6.FINAL%20PROJECT%20-%20Supervised%20Machine%20Learning%20Airbnb%20(Yeo%20Johnson)-2.ipynb)
-- Machine Learning Model (Linear Regression, Random Forest, KNN, XGBoost, GradientBoosting) with Hyperparameter Tuning (GridSearch) [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/6.FINAL%20PROJECT%20-%20Supervised%20Machine%20Learning%20Airbnb%20(Yeo%20Johnson)-2.ipynb)
-- Evaluation Metrics (R2,MAE,MSE,RMSE) [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/6.FINAL%20PROJECT%20-%20Supervised%20Machine%20Learning%20Airbnb%20(Yeo%20Johnson)-2.ipynb)
-- Recommendation System (Content-Based) [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/8.FINAL%20PROJECT%20RECOMMENDATION%20SYSTEM%20CONTENT%20BASED-2.ipynb)
-- Conclusion
 
 ### EXPLORATORY DATA ANALYSIS (general)
 - proses analisis untuk mendapatkan insight dari data dengan metode pendekatan terhadap grafis dan tabel untuk memaksimalkan wawasan dan menguji hipotesis
@@ -88,6 +92,7 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 | MSE | 0.2 |
 | RMSE | 0.4 |
 
+- Berdasarkan modeling saya mendapati model algoritma yang terbaik adalah XGBoost daripada yang lain
 - Berdasarkan hasil penelusuran diatas, hasil yang saya dapatkan untuk R square cenderung baik yaitu 0.78 yaitu menandakan ketepatan dalam memprediksi actual besar/ istilah akurasi dalam kasus Klasifikasi
 - Berdasarkan hasil diatas, hasil yang saya dapatkan untuk MSE sudah memuaskan bagi saya karena MSE menandakan error yang didapatkan dari rata-rata actual - prediksi, dikuadratkan yang mana semakin kecil error maka semakin baik model tersebut
 - Berdasarkan hasil diatas hasil yang saya dapatkan untuk MAE juga sangat memuaskan bagi saya karena MAE menandakan error yang didapatkan dari actual - prediksi yang diabsolutkan yang mana baik apabila bernilai kecil atau mendekati 0
@@ -123,8 +128,8 @@ Setelah ditelaah dampak dari Minpaku Law sangat terlihat dari penurunan jumlah a
 ### TERIMAKASIH BANYAK
 - God
 - Mama dan Papa
-- Teman-teman JCDS BSD, Bandung yang memberikan semangat untuk menyelesaikan dan mengumpulkan Infinity Gauntlet terakhir [Thanos](https://www.youtube.com/watch?v=9VrjneFdZFI)
-- Mas Khumaeni selaku pengajar yang selalu sabar menghadapi saya yang malas dan cenderung ga connect saat sore
+- Teman-teman JCDS BSD, Bandung yang memberikan semangat untuk menyelesaikan ini [Purwadhika](https://purwadhika.com/)
+- Mas Khumaeni selaku pengajar yang selalu sabar menghadapi saya yang malas dan cenderung ga connect saat sore [Purwadhika](https://purwadhika.com/)
 - Pedro Domingos (author of "The Master Algorithm" book)
 - Ken Jee (Data Science Expert) [Youtube](https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg)
 - Krish Naik (Data Science Expert with Indian Accent) [Youtube](https://www.youtube.com/user/krishnaik06/featured)
@@ -149,3 +154,5 @@ Click for more information
 
 
 <br />
+
+[ABOUT GIOVALDIRC](https://github.com/giovaldir)
