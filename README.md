@@ -1,6 +1,6 @@
 # Final Project Purwadhika 2020
 ## Tokyo Airbnb Project - Price Prediction and Space Recommendation
-### by Giovaldi RC ( JCDS Purwadhika 0306 ) 
+### by Giovaldi RC ( JCDS Purwadhika 0306 ) [MORE ABOUT GIOVALDIRC](https://github.com/giovaldir)
 - dataset di download langsung dari website airbnb di http://insideairbnb.com/
 
 
@@ -157,4 +157,4 @@ Click for more information
 <br />
 <br />
 
-[MORE ABOUT GIOVALDIRC](https://github.com/giovaldir)
+
