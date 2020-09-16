@@ -136,7 +136,7 @@ Setelah ditelaah dampak dari Minpaku Law sangat terlihat dari penurunan jumlah a
 - Krish Naik (Data Science Expert with Indian Accent) [Youtube](https://www.youtube.com/user/krishnaik06/featured)
 - TORA BIKA Gilus Mix [Indomaret](https://www.klikindomaret.com/brand/torabika)
 - Taulany TV [Youtube](https://www.youtube.com/channel/UC6SPCnTAIanF2_8ST2wrQzw/featured)
-- Dasha Taran (THE BEST buat mata, bikin semangat walaupun bahasa rusia) [Youtube](https://www.youtube.com/channel/UC8cBpF1nXrpTVbztdj3iSdQ/featured)
+- Dasha Taran [Youtube](https://www.youtube.com/channel/UC8cBpF1nXrpTVbztdj3iSdQ/featured)
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=FOabQZHT4qY"><img src="https://media.giphy.com/media/kRkJXYahXjSE0/giphy.gif" alt="GiovaldiRC" width="400" height="250"></a>
