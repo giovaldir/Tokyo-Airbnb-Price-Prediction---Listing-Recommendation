@@ -20,7 +20,8 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 
 ## PRESENTATION
 
-[PDF](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/Get nap alerts when energy levels drop, and be woken at the right time to feel refreshed.pdf)
+
+[PDF](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/Get%20nap%20alerts%20when%20energy%20levels%20drop%2C%20and%20be%20woken%20at%20the%20right%20time%20to%20feel%20refreshed.pdf)
 
 ## STEPS
 
