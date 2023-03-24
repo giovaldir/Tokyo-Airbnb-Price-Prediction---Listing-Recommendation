@@ -1,8 +1,8 @@
-## Tokyo Airbnb Project - Price Prediction and Space Recommendation
+## Predicting-Airbnb-Prices-using-Regression
 ### by Giovaldi R 
 [more about GiovaldiR](https://github.com/giovaldir)
 
-- dataset di download langsung dari website airbnb di http://insideairbnb.com/
+- dataset : http://insideairbnb.com/
 
 
 #### Programming Languages
