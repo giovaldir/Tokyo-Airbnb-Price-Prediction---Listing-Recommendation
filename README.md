@@ -1,7 +1,6 @@
-# Final Project Purwadhika 2020
 ## Tokyo Airbnb Project - Price Prediction and Space Recommendation
-### by Giovaldi RC ( JCDS Purwadhika 0306 ) 
-[more about GiovaldiRC](https://github.com/giovaldir)
+### by Giovaldi R 
+[more about GiovaldiR](https://github.com/giovaldir)
 
 - dataset di download langsung dari website airbnb di http://insideairbnb.com/
 
@@ -18,12 +17,10 @@
 
 ![](tokyo-wallpaper.jpg)
 
-Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatnya Tokyo pada tahun 2010. Berdasarkan perkembangan waktu, ada beberapa riset yang menyatakan bahwa penerapan Minpaku Law oleh pemerintah di tahun 2018 menjadi titik terbawah dalam perkembangan Airbnb Tokyo. Seiring berjalannya waktu, Airbnb Tokyo mulai bangkit dan di tahun 2019 diumumkan sebagai Sponsor dari perhelatan Olimpiade Internasional yaitu 2020 Olympics. Tentu hal ini akan memberikan dampak positif bagi Pengusaha Airbnb, sehingga diharuskan untuk mengetahui setiap celah untuk mendapatkan profit. Penempatan lokasi Stadium terhadap Airbnb pun dirasa sangat berdampak di saat acara dengan estimasi 600.000 pengunjung asing ini berlangsung. Diantara hal tersebut, satu yang sangat krusial untuk memperoleh profit adalah HARGA. Disini saya akan mencoba memprediksi harga berdasarkan pendekatan Supervised Learning : Regression untuk membantu Pengusaha Airbnb yang baru akan berkecimpung ke dalam bisnis Airbnb dan juga memberikan Recommendation System berdasarkan pendekatan terhadap rating dan space untuk membantu Pengusaha Airbnb yang telah masuk di dalam bisnis ini (cenderung kurang profit) agar dapat memperbaiki cara bisnisnya. 
+Airbnb has expanded its reach in various countries, including Japan, specifically Tokyo in 2010. Over time, there have been several studies indicating that the implementation of the Minpaku Law by the government in 2018 was the lowest point in the development of Airbnb in Tokyo. As time went by, Airbnb Tokyo began to rise again and in 2019 it was announced as a sponsor of the International Olympic event, the 2020 Olympics. Of course, this will have a positive impact on Airbnb entrepreneurs, who are required to know every opportunity to gain profit. The location of the Stadium in relation to Airbnb is also perceived to have a significant impact during the event, with an estimated 600,000 foreign visitors. Among these factors, one crucial aspect to obtain profit is PRICE. Here, I will try to predict prices based on a Supervised Learning approach: Regression, to assist new Airbnb entrepreneurs and provide a Recommendation System based on the approach to rating and space to help existing Airbnb entrepreneurs (who tend to have less profit) to improve their business strategies. 
 
 ## PRESENTATION
-
-
-[PDF](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/Get%20nap%20alerts%20when%20energy%20levels%20drop%2C%20and%20be%20woken%20at%20the%20right%20time%20to%20feel%20refreshed.pdf)
+[PDF](soon)
 
 ## STEPS
 
@@ -36,21 +33,19 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 - Recommendation System (Content-Based) [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/8.FINAL%20PROJECT%20RECOMMENDATION%20SYSTEM%20CONTENT%20BASED-2.ipynb)
 - Conclusion
 
-## PROBLEMS
+## PROBLEM STATEMENT
 
-- Pengusaha Airbnb tidak mengetahui peraturan ketat terkait persyaratan Minpaku Law yang dapat menyebabkan pembatalan operasi.
-- Pengusaha Airbnb tidak mengetahui top area penjualan Airbnb yang berlokasi dekat dengan lokasi venue 2020 Olympics yang dapat memaksimalkan keuntungan.
-- Pengusaha Airbnb tidak mengetahui harga yang tepat yang dapat digunakan pada saat menyewakan Airbnb
+Despite the rapid growth of Airbnb in various countries, including Japan, there are several critical issues that Airbnb entrepreneurs face. Firstly, they are not aware of the strict regulations regarding the Minpaku Law requirements, which can lead to the cancellation of their operations. Secondly, they are not knowledgeable about the top-selling areas of Airbnb located near the 2020 Olympics venue, which can maximize their profits. Lastly, Airbnb entrepreneurs lack the knowledge of appropriate pricing strategies to use when renting out their Airbnb. These issues highlight the need for a solution that can provide guidance to both new and existing Airbnb entrepreneurs, assisting them in navigating the regulations, identifying profitable areas, and setting appropriate prices to improve their business strategies
 
 ## GOALS
 
-- Mendapatkan Analisis terkait Airbnb yang legal berdasarkan aturan "Minpaku Law" mengenai maksimum hari dapat beroperasinya sebuah Airbnb pertahun (pandas)
-- Mendapatkan Analisis terkait perkembangan untuk Airbnb yang berlokasi dekat dengan venue yang akan dipakai pada 2020 Olympics (pandas,folium,seaborn,matplotlib,wordcloud)
-- Mendapatkan prediksi harga Airbnb dengan menggunakan Supervised Learning Regression sebagai kunci utama dalam menyewakan Airbnb serta mendapatkan profit.
-- Mendapatkan rekomendasi space Airbnb dengan Recommendation System Content-Based untuk membantu Pengusaha Airbnb yang telah berkecimpung di dunia ini agar lebih maksimal dalam memperoleh spesifikasi terbaik berdasarkan area top 5 terprofit.
+- To analyze the legality of Airbnb according to the "Minpaku Law" regulations that determine the maximum number of days an Airbnb can operate per year (using pandas).
+- To conduct an analysis on the growth of Airbnb located near the venues to be used in the 2020 Olympics (using pandas, folium, seaborn, matplotlib, wordcloud).
+- To predict Airbnb prices using Supervised Learning Regression as the key to renting out Airbnb and maximizing profits.
+- To provide recommendations on Airbnb space using a Content-Based Recommendation System, helping existing Airbnb entrepreneurs to optimize their profits by obtaining the best specifications based on the top 5 most profitable areas.
 
 ### EXPLORATORY DATA ANALYSIS (general)
-- proses analisis untuk mendapatkan insight dari data dengan metode pendekatan terhadap grafis dan tabel untuk memaksimalkan wawasan dan menguji hipotesis
+The process of analyzing data to gain insights using methods such as visualizations and tables to maximize understanding and test hypotheses.
 
 [FULL EDA](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/2.FINAL%20PROJECT%20-%20Exploratory%20Data%20Analysis%20Airbnb-2.ipynb)
 
@@ -71,22 +66,22 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 #### Amenities
 <a href="https://github.com/giovaldir"><img src="https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/Screen Shot 2020-09-15 at 13.50.40.png" width="500" height="500" alt="GiovaldiRC" ></a>
 
-### Mendapatkan analisis data Airbnb yang legal berdasarkan aturan "Minpaku Law" mengenai maksimum hari dapat beroperasinya sebuah Airbnb pertahun.
-- Terdapat 7526 airbnb yang legal atau mematuhi peraturan terkait Minpaku Law tentang 180 hari beroperasinya sebuah Airbnb. Berdasarkan pemetaan data yang legal banyak terlihat di lokasi dekat dengan Pusat kota.
-- Dari sebelumnya 55 neighbourhood, setelah dilakukan penerapan Minpaku Law tersisa 51 area yang mana tidak ada area adachi,koganei shi,ogasawara,akiruno shi disini. Setelah ditelaah melalui riset, area tersebut memang termasuk area tersedikit untuk jumlah Airbnb di Tokyo. Dari penelusuran wikipedia ditemukan ke empat area ini merupakan area yang jauh dari pusat kota 40 hingga 50 km jaraknya. Dan juga akses untuk kesana sangatlah sedikit yaitu hanya kereta dengan sedikit line(jalur/jurusan) dan tol saja. 
-- Untuk type ruangan sendiri, area Shinjuku di airbnb legal ini masih menjadi yang pertama untuk Entire home/Apt, dan Taito Untuk Private Room,Shared Room dan Hotel room. Sisanya tidak terlalu banyak perubahan hanya nilainya saja yang berkurang. Untuk property type sendiri juga sama, apartment masih yang nomor 1, yang mana banyak bertipe ruangan Entire home/apt dengan jumlah 3964 dan terbanyak di Shinjuku dengan total 1008,untuk private room ada kesamaan untuk property tipe apartment(450,Shinjuku 66) dan house(450,Shinjuku 39). Lalu untuk shared dan hotel room paling banyak di property hostel. Terdapat 146 shared room dan terbanyak di Taito dengan 45. Untuk hotel room berjumlah 172 dan terbanyak di Chuo Ku. Chuo akan saya bahas disini setelah dua yang lain sudah sering dibahas sebelumnya. Menurut sumber Area Chuo ini merupakan area yang terkenal dengan perkantoran perusahaan-perusahaan berkelas Internasional. Salah satunya IBM,McKinsey & Company, Astellas Pharma, a global pharmaceutical company, KOSÉ perusahaan kosmetik internasional. Dan juga perusahaan Jepang yang sudah mendunia seperti Kao, Ajinomoto. Hal ini mungkin sangat sebanding dengan banyaknya jumlah hotel disana untuk menampung tamu-tamu asing di area tersebut. 
-- Perkembangan harga airbnb legal ini sangat besar untuk Entire home/Apt. Dimana jenis ruangan lain banyak yang turun di 2018 ataupun stagnan, Entire home/Apt malah cenderung naik meskipun tidak banyak diangka 18000 yen ke 20000 yen. Lalu ada hal baru lagi yang kita dapatkan disini bahwa, Hotel Room berhenti tahun 2019. Setelah ditelaah ini terjadi karena banyak hotel yang memiliki bintang kecil (3 bintang) memasang harga yang cukup mahal. Terlebih lagi disebutkan, kualitas dan amenities nya pun kurang apabila dibandingkan dengan Airbnb. Lalu Airbnb biasa memiliki experience lain yang ditawarkan Host, sedangkan menginap di hotel akan memiliki experience yang sama dimana pun di dunia. Jadi, meskipun sempat naik di 2016 akhirnya hotel room berusaha menyamakan price nya di tahun 2018 dan karena tidak berhasil untuk dapat untung akhirnya menyelesaikan kerja sama nya dengan airbnb di 2019 tepatnya awal 2019.
+### To analyze the legality of Airbnb according to the "Minpaku Law" regulations that determine the maximum number of days an Airbnb can operate per year (using pandas).
+- There are 7526 legal Airbnb listings complying with the Minpaku Law of operating up to 180 days per year. Based on the data mapping, many of these legal listings are located near the city center.
+- Previously, there were 55 neighborhoods, but after the implementation of the Minpaku Law, only 51 areas remain. Adachi, Koganei Shi, Ogasawara, and Akiruno Shi are no longer included. After researching, these areas are among the least populated Airbnb areas in Tokyo. Wikipedia research found that these four areas are located far from the city center, approximately 40-50 km away. Access to these areas is also limited, with only a few train lines and toll roads available.
+- In terms of room types, Shinjuku has the highest number of entire home/apartment listings among legal Airbnbs, while Taito has the most private rooms, shared rooms, and hotel rooms. There are not many changes in other areas, only the numbers have decreased. In terms of property type, apartments remain the most popular, with a large number of entire home/apartment listings in Shinjuku, while private rooms are available in both apartments and houses, with Shinjuku having the highest number of each. Shared rooms and hotel rooms are most commonly found in hostel properties. The most hotel rooms are located in Chuo Ku, an area known for its international-class company offices such as IBM, McKinsey & Company, Astellas Pharma, KOSÉ, Kao, Ajinomoto, and others. This is likely due to the large number of hotels in the area catering to foreign guests.
+- The price of entire home/apartment legal Airbnbs has significantly increased, while other types of rooms have decreased or remained stagnant in price. Hotel room listings stopped in 2019 due to many hotels with three-star ratings setting high prices, despite having lower quality amenities compared to Airbnb listings. Additionally, Airbnb hosts offer unique experiences, while hotel stays offer a similar experience wherever you go. Although hotel room prices briefly increased in 2016, they eventually lowered their prices in 2018, and in early 2019, terminated their partnership with Airbnb because they were unable to make a profit.
 
 
-### Mendapatkan analisis tentang perkembangan untuk Airbnb yang berlokasi dekat dengan venue yang akan dipakai pada 2020 Olympics
-- Saya membuat kolom baru bernama posisi, berdasarkan kedekatan posisi neighbourhood terhadap lokasi Stadium. Dibagi menjadi tiga agar lebih mudah mengerti, yaitu dekat, menengah dan jauh. Jumlah yang dekat lebih banyak sedikit dibandingkan yang lain. Berdasarkan penelusuran, dapat disimpulkan bahwa Airbnb yang berlokasi dekat dengan Stadium memiliki kenaikkan jumlah yang sangat pesat pertahunnya. Untuk 3 tahun terakhir 2017,2018,2019 jumlahnya terus naik 857,1548,1800. Dan untuk 2020 yang mana datanya cuma sampai bulan ke 4 sudah mencapai 510. atau 1/3 dari tahun 2019. 
-- Untuk rata-rata harganya pun untuk yang berlokasi dekat naik terus melonjak setiap tahunnya akan tetapi dua tahun terakhir yaitu 2019-2020 awal naiknnya paling terlihat yaitu 30% . Apabila di rupiahkan yaitu sebesar 477680. 
-- Untuk akomodasi sendiri ditahun 2020 untuk jarak yang dekat naik menjadi 11% dari tahun 2019/ tahun pengumuman Tokyo menjadi Host 2020 Olympics dan 48% dari tahun 2018. Kenaikkan nya 2 hampir kali lipat. 
-- Untuk bedrooms dari tahun 2019 untuk satu kamar, naik 7-8%. Untuk area sendiri rata-rata harga termahal sekarang adalah Shibuya dengan rata-rata 26317/ 3juta rupiah. Siapa yang tidak tahu Shibuya? Shibuya Crossing adalah tempat penyebrangan terpadat di dunia, dijuluki sebagai area tak pernah tidur 24 jam non stop. Untuk data top 5 Shibuya Ku', 'Shinjuku Ku', 'Toshima Ku', 'Taito Ku', 'Sumida Ku juga tidak kalah menarik. Dimana Shibuya merupakan area dengan rata-rata harga termahal.
+### To conduct an analysis on the growth of Airbnb located near the venues to be used in the 2020 Olympics (using pandas, folium, seaborn, matplotlib, wordcloud).
+- I created a new column called "position", based on the proximity of the neighbourhood to the Stadium location. It was divided into three categories for easier understanding, namely close, medium, and far. The number of close locations was slightly higher than the others. Based on research, it can be concluded that Airbnb locations close to the Stadium have a very rapid increase in the number of bookings per year. For the last 3 years, 2017, 2018, and 2019, the numbers have continued to rise to 857, 1548, 1800 respectively. And for 2020, which only has data up to the 4th month, it has already reached 510, or 1/3 of 2019.
+- For the average price, for those located close to the Stadium, it has been steadily increasing every year, but the most significant increase was seen in the last two years, 2019-2020, which was 30%. When converted to rupiah, it's around 477,680.
+- In 2020, the accommodations themselves for locations that are close increased by 11% from 2019, and by 48% from 2018, a nearly two-fold increase.
+- For bedrooms, from 2019, the price for a single room has increased by 7-8%. The most expensive area is currently Shibuya, with an average price of 26,317/3 million rupiah. Who doesn't know Shibuya? Shibuya Crossing is the busiest pedestrian crossing in the world, nicknamed the 24-hour non-stop area. The top 5 areas are Shibuya Ku', 'Shinjuku Ku', 'Toshima Ku', 'Taito Ku', 'Sumida Ku, all of which are equally interesting, with Shibuya being the most expensive.
 
-### Mendapatkan prediksi harga Airbnb dengan menggunakan Supervised Learning Regression sebagai kunci utama dalam menyewakan Airbnb serta mendapatkan profit.
+### To predict Airbnb prices using Supervised Learning Regression as the key to renting out Airbnb and maximizing profits.
 ### EVALUATION METRICS
-- proses mengukur kinerja model dengan berbagai parameter penentu : R2, MAE,MSE,RMSE
+- R2, MAE,MSE,RMSE
 
 | XGBoost |  |
 | --- | --- |
@@ -95,22 +90,22 @@ Airbnb telah mengembangkan sayapnya di berbagai negara termasuk di Jepang tepatn
 | MSE | 0.2 |
 | RMSE | 0.4 |
 
-- Berdasarkan modeling saya mendapati model algoritma yang terbaik adalah XGBoost daripada yang lain
-- Berdasarkan hasil penelusuran diatas, hasil yang saya dapatkan untuk R square cenderung baik yaitu 0.78 yaitu menandakan ketepatan dalam memprediksi actual besar/ istilah akurasi dalam kasus Klasifikasi
-- Berdasarkan hasil diatas, hasil yang saya dapatkan untuk MSE sudah memuaskan bagi saya karena MSE menandakan error yang didapatkan dari rata-rata actual - prediksi, dikuadratkan yang mana semakin kecil error maka semakin baik model tersebut
-- Berdasarkan hasil diatas hasil yang saya dapatkan untuk MAE juga sangat memuaskan bagi saya karena MAE menandakan error yang didapatkan dari actual - prediksi yang diabsolutkan yang mana baik apabila bernilai kecil atau mendekati 0
+- Based on my modeling, I found that the best algorithm model is XGBoost compared to others.
+- Based on the above search results, the R square score is quite good, which is 0.78, indicating accuracy in predicting the actual value or accuracy in the case of classification.
+- Based on the above results, the MSE is satisfactory to me because MSE indicates the error obtained from the difference between the actual and predicted values, squared. The smaller the error, the better the model.
+- Based on the above results, the MAE is also very satisfactory to me because the MAE indicates the error obtained from the difference between the actual and predicted values, which is absolute, and it is good if it is small or close to 0.
 
-### Mendapatkan rekomendasi space Airbnb dengan Recommendation System Content-Based untuk membantu Pengusaha Airbnb yang telah berkecimpung di dunia ini agar lebih maksimal dalam memperoleh spesifikasi terbaik berdasarkan area top 5 terprofit.
+### To provide recommendations on Airbnb space using a Content-Based Recommendation System, helping existing Airbnb entrepreneurs to optimize their profits by obtaining the best specifications based on the top 5 most profitable areas.
 ### RECOMMENDATION SYSTEM
 
-- proses untuk memberikan rekomendasi space dengan melihat Airbnb yang telah memiliki reviews score rating 100 di setiap area/neighbourhood yang paling profit. Sasaran dari rekomendasi ini adalah Pengusaha Airbnb lama/ yang telah berbisnis namun cenderung kurang profit selama ini. Dengan memprovide rekomendasi ini, Pengusaha Airbnb (LAMA) akan mengetahui apa yang disukai pasar, spesifikasi apa yang sebenarnya dibutuhkan Airbnb nya di neighbourhood tersebut, dan tentu nya akan memudahkan sang pengusaha untuk memperbaiki kegagalan sebelumnya.
+The process of providing space recommendations by looking at Airbnb listings that have a review score rating of 100 in the most profitable areas/neighborhoods. The target of this recommendation is established Airbnb entrepreneurs who have been in business but have not been profitable enough. By providing this recommendation, the established Airbnb entrepreneur will know what the market likes, what specifications are actually needed for their Airbnb in that neighborhood, and of course, it will make it easier for the entrepreneur to improve their previous failures.
 
 <a href="https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/8.FINAL%20PROJECT%20RECOMMENDATION%20SYSTEM%20CONTENT%20BASED-2.ipynb"><img src="https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/Recommendation System.png" alt="GiovaldiRC" ></a>
 click for more information
 
 ### CONCLUSION
 
-Setelah ditelaah dampak dari Minpaku Law sangat terlihat dari penurunan jumlah airbnb, beberapa neighbourhood yang tidak dapat berpartisipasi lagi di usaha ini  hingga penurunan harga di tahun-tahun 2017-2018. Akan tetapi dengan adanya 2020 Olympics, akhirnya Airbnb selaku sponsor dapat bangkit dan dapat menjadi yang diminati lagi. Setelah 2018, harga pun kian melonjak, terlebih lagi untuk yang dekat dengan lokasi Venue 2020 Olympics. Jadi untuk segi pengaruh harga, bagi Pengusaha yang ingin memulai bisnis Airbnb ini sebaiknya melihat kedekatan lokasi Venue sebagai faktor yang menjanjikan salah satu contoh "Shibuya Ku', 'Shinjuku Ku', 'Toshima Ku', 'Taito Ku', 'Sumida Ku" yang terus mengalami kenaikan bahkan hingga 30% dan terus naik hingga bulan awal tahun 2020. Setelah didapatkan berbagai keunggulan lokasi ini menurut Forbes kita juga dapat melihat trend beberapa tipe ruangan yang ditawarkan di Tokyo ini, ada dua yang menjanjikan yaitu Entire home/Apt dan Private room yang mana menekankan privasi yang baik untuk pengunjung. Setelah itu bagi Pengusaha Airbnb lama pun dari hasil Recommender System terdapat beberapa Airbnb yang memiliki kriteria space yang dapat dijadikan acuan yang mana memiliki rating terbaik di beberapa area profit tentunya. Hal ini dapat memperbaiki sistem usaha Pengusaha lama ini. Setelah seluruh kebutuhan tempat, spesifikasi telah terpenuhi, jangan lupa dengan detailnya yaitu ada beberapa perlengkapan yang perlu ada di Airbnb anda untuk di Tokyo ini yaitu seperti Heater, Washer, Wifi, Smoke Alarm dll. Dengan adanya hal-hal tersebut penentuan harga pun dapat maksimal dan menyelesaikan problem-problem di project ini.
+After examining the impact of the Minpaku Law, it is very apparent that there was a decrease in the number of Airbnbs, some neighborhoods were no longer able to participate in this business, and there was a decrease in prices in the years 2017-2018. However, with the 2020 Olympics, Airbnb as a sponsor was able to revive and become popular again. After 2018, prices continued to skyrocket, especially for those near the 2020 Olympics Venue. So, in terms of price impact, for entrepreneurs who want to start an Airbnb business, they should look at the proximity to the Venue as a promising factor, such as "Shibuya Ku', 'Shinjuku Ku', 'Toshima Ku', 'Taito Ku', 'Sumida Ku", which continue to experience increases of even up to 30% and continue to rise until the beginning of 2020. After obtaining various advantages of these locations according to Forbes, we can also see the trend of several types of rooms offered in Tokyo, two of which are promising, namely Entire home/Apt and Private room, which emphasize good privacy for visitors. Then, for experienced Airbnb entrepreneurs, from the results of the Recommender System, there are several Airbnbs that meet the criteria for spaces that can be used as references, which have the best ratings in some profitable areas. This can improve the business system of these experienced entrepreneurs. After all the needs for the place and specifications are fulfilled, don't forget about the details, such as some equipment that needs to be provided in your Airbnb in Tokyo, such as Heater, Washer, Wifi, Smoke Alarm, etc. With these things, price determination can be maximized and problems in this project can be solved.
 
 ### DASHBOARD
 
@@ -128,32 +123,16 @@ Setelah ditelaah dampak dari Minpaku Law sangat terlihat dari penurunan jumlah a
 - https://www.sakura-house.com/?gclid=CjwKCAjwzIH7BRAbEiwAoDxxTnL4DxKBxphjUND7Vgihq2WgdUgxd7Q4M723hEmUpErQp0KtV5-WtRoCrLcQAvD_BwE
 - https://www.airbnb.jp/
 
-### TERIMAKASIH BANYAK
-- God
-- Mama dan Papa
-- Teman-teman JCDS BSD, Bandung yang memberikan semangat untuk menyelesaikan ini [Purwadhika](https://purwadhika.com/)
-- Mas Khumaeni selaku pengajar yang selalu sabar menghadapi saya yang malas dan cenderung ga connect saat sore [Purwadhika](https://purwadhika.com/)
-- Pedro Domingos (author of "The Master Algorithm" book)
-- Ken Jee (Data Science Expert) [Youtube](https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg)
-- Krish Naik (Data Science Expert with Indian Accent) [Youtube](https://www.youtube.com/user/krishnaik06/featured)
-- TORA BIKA Gilus Mix [Indomaret](https://www.klikindomaret.com/brand/torabika)
-- Taulany TV [Youtube](https://www.youtube.com/channel/UC6SPCnTAIanF2_8ST2wrQzw/featured)
-- Dasha Taran [Youtube](https://www.youtube.com/channel/UC8cBpF1nXrpTVbztdj3iSdQ/featured)
-
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=FOabQZHT4qY"><img src="https://media.giphy.com/media/kRkJXYahXjSE0/giphy.gif" alt="GiovaldiRC" width="400" height="250"></a>
-</p>
-<p align="center">
-Click for more information
-</p>
+### Thank You
 
 ### CONNECT WITH ME
+
+[instagram]: https://www.instagram.com/giovaldirch
+[linkedin]: https://www.linkedin.com/in/grm20222
 
 [<img align="left" alt="giovaldir | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 [<img align="left" alt="giovaldir | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
-[instagram]: https://www.instagram.com/giovaldirch
-[linkedin]: https://www.linkedin.com/in/giovaldi-r-00263411a/
 
 
 <br />
