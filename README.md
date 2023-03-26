@@ -47,7 +47,33 @@ Despite the rapid growth of Airbnb in various countries, including Japan, there 
 ### METHODS
 The method used in this project is regression, which aims to predict the price of Airbnb rentals in Tokyo based on factors such as location, amenities, room type, number of bedrooms, and more. I chose regression for this project because, as I learned from "Machine Learning Specialization by Andrew NG (Stanford)," it is perfect for predicting a numerical value from infinitely many possible values, which is precisely the task at hand in this project: predicting the price of an Airbnb rental.
 
-Regression is a statistical method used to estimate the relationship between a dependent variable and one or more independent variables. There are several types of Regression Algorithms, including:
+#### REGRESSION
+*Regression* is a statistical method used to estimate the association relationship between a dependent variable (Y) and one or more independent variables (X1, X2, X3, ..., Xn), relationship can be linear or non-linear and it usually has continuous output. 
+
+- Dependent variable (response variable) -> measures an outcome of a study
+
+- Independent variable (explanatory variables) explain changes in a response variable
+
+Purpose of regression -> predict the value of dependent variable given the values of independent variables.
+
+Why we need Regression ? helpful when companies would like to know about related factors that have significant impact on their key performance indicators. it also helps to create a new hypothesis that assist companies to improve their performance and hence better decision making
+
+Types of Regression:
+- Simple Regression -> One independent variable: Linear and non-linear
+
+Y = B0 + B1X + E
+
+    Y -> dependent variable
+    B0 -> population Y-intercept (naik turun garis linear)
+    B1 -> population slope (kemiringan garis)
+    X1 -> independent variable
+    E -> Random error
+
+- Multiple Regression -> More than one independent variable: linear and non-linear (X1, X2, X3, ..., Xn)
+
+Y = B0 + B1X1 + B2X2 + B3X3 + ... + BkXk + E
+
+There are several types of Regression Algorithms, including:
 - Linear Regression
 - Polynomial Regression
 - Random Forest Regressor
@@ -56,7 +82,9 @@ Regression is a statistical method used to estimate the relationship between a d
 - XGB Regressor
 - and etc.
 
-*Linear Regression* is one of Regression model that predicts unknown values by using related and known data values. Mathematically, it models the unknown or dependent variable and the known or independent variable as a linear equation.
+
+
+*Linear Regression* is one of Regression algorithm that have standard method for modeling the past relationship between independent input variables and dependent output variables (which can have an infinite number of values) to help predict future values of the output variables.
 
 Simple Linear vs Multiple Linear 
 
