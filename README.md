@@ -83,14 +83,17 @@ There are several types of Regression Algorithms, including:
 - and etc.
 
 
+#### LINEAR REGRESSION [Jupyter](https://github.com/giovaldir/Predicting-Airbnb-Prices-using-Regression/blob/ac1b9ee3af088d4fb42e78bac630fcc501c4c188/Linear_Regression.ipynb)
 
-*Linear Regression* is one of Regression algorithm that have standard method for modeling the past relationship between independent input variables and dependent output variables (which can have an infinite number of values) to help predict future values of the output variables.
+It is one of Regression algorithm that have standard method for modeling the past relationship between independent input variables and dependent output variables (which can have an infinite number of values) to help predict future values of the output variables.
 
 Simple Linear vs Multiple Linear 
 
 In SLR, we have one dependent variable (price) and one independent variable (size). If we want to determine the effect of the dependent variable (output) on more than one independent variable (input data, also known as predictors), we need to use Multiple Linear Regression (MLR).
 
-*Polynomial Regression* is used to capture non-linear relationships between variables, where this regression uses quadratic functions. However, many mathematics professors also say that a polynomial function is linear if it has an order or degree of 1, and anything above that is considered non-linear.
+#### POLYNOMIAL REGRESSION [Jupyter](https://github.com/giovaldir/Predicting-Airbnb-Prices-using-Regression/blob/ac1b9ee3af088d4fb42e78bac630fcc501c4c188/Linear_Regression.ipynb)
+
+It is used to capture non-linear relationships between variables, where this regression uses quadratic functions. However, many mathematics professors also say that a polynomial function is linear if it has an order or degree of 1, and anything above that is considered non-linear.
 
 When to use simple, multiple, and polynomial regression ? 
 
