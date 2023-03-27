@@ -61,17 +61,17 @@ Why we need Regression ? helpful when companies would like to know about related
 Types of Regression:
 - Simple Regression -> One independent variable: Linear and non-linear
 
-Y = B0 + B1X + E
+Y = B1X + B0 + E or some source mentioned Y = AX + B
 
     Y -> dependent variable
-    B0 -> population Y-intercept (naik turun garis linear)
+    B0 -> population Y-intercept/titik potong (naik turun garis linear)
     B1 -> population slope (kemiringan garis)
     X1 -> independent variable
     E -> Random error
 
 - Multiple Regression -> More than one independent variable: linear and non-linear (X1, X2, X3, ..., Xn)
 
-Y = B0 + B1X1 + B2X2 + B3X3 + ... + BkXk + E
+Y = B1X1 + B2X2 + B3X3 + ... + BkXk + B0 + E
 
 There are several types of Regression Algorithms, including:
 - Linear Regression
