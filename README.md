@@ -19,9 +19,6 @@
 
 Airbnb has expanded its reach in various countries, including Japan, specifically Tokyo in 2010. Over time, there have been several studies indicating that the implementation of the Minpaku Law by the government in 2018 was the lowest point in the development of Airbnb in Tokyo. As time went by, Airbnb Tokyo began to rise again and in 2019 it was announced as a sponsor of the International Olympic event, the 2020 Olympics. Of course, this will have a positive impact on Airbnb entrepreneurs, who are required to know every opportunity to gain profit. The location of the Stadium in relation to Airbnb is also perceived to have a significant impact during the event, with an estimated 600,000 foreign visitors. Among these factors, one crucial aspect to obtain profit is PRICE. Here, I will try to predict prices based on a Supervised Learning approach: Regression, to assist new Airbnb entrepreneurs and provide a Recommendation System based on the approach to rating and space to help existing Airbnb entrepreneurs (who tend to have less profit) to improve their business strategies. 
 
-## PRESENTATION
-[PDF](soon)
-
 ## STEPS
 
 - Handling Missing Values, Duplicated [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/1.FINAL%20PROJECT%20-%20Handling%20Missing%2CDuplicated%20Airbnb.ipynb)
