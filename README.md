@@ -44,6 +44,9 @@ Despite the rapid growth of Airbnb in various countries, including Japan, there 
 - To predict Airbnb prices using Supervised Learning Regression as the key to renting out Airbnb and maximizing profits.
 - To provide recommendations on Airbnb space using a Content-Based Recommendation System, helping existing Airbnb entrepreneurs to optimize their profits by obtaining the best specifications based on the top 5 most profitable areas.
 
+## DATASETS
+
+![](https://github.com/giovaldir/Predicting-Airbnb-Prices-using-Regression/blob/d5ba15952c9324d480b2b9a71e5b24993659ff8a/Screenshot%20(1488).png)
 ### METHODS
 The method used in this project is regression, which aims to predict the price of Airbnb rentals in Tokyo based on factors such as location, amenities, room type, number of bedrooms, and more. I chose regression for this project because, as I learned from "Machine Learning Specialization by Andrew NG (Stanford)," it is perfect for predicting a numerical value from infinitely many possible values, which is precisely the task at hand in this project: predicting the price of an Airbnb rental.
 
