@@ -154,10 +154,10 @@ The process of analyzing data to gain insights using methods such as visualizati
 | --- | --- | --- | --- | --- | 
 | XGBoost | 0.78 | 0.2 | 0.2 | 0.4 |
 | Linear Regression | 0.72 | 0.3 | 0.3 | 0.5 |
-| Polynomial Regression | 0.81 | 0.2 | 0.2 | 0.4 |
+| Polynomial Regression | 0.61 | 0.2 | 0.2 | 0.4 |
 | SVR | 0.75 | 0.3 | 0.3 | 0.5 |
 | Decision Tree | 0.67 | 0.4 | 0.4 | 0.6 |
-| Random Forest | 0.84 | 0.2 | 0.2 | 0.4 |
+| Random Forest | 0.74 | 0.2 | 0.2 | 0.4 |
 
 - Based on my modeling, I found that the best algorithm model is XGBoost compared to others.
 - Based on the above search results, the R square score is quite good, which is 0.78, indicating accuracy in predicting the actual value or accuracy in the case of classification.
