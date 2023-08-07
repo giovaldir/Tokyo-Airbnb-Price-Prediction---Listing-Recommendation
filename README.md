@@ -1,7 +1,4 @@
-## Predicting-Airbnb-Prices-using-Regression
-### by Giovaldi R 
-[more about GiovaldiR](https://github.com/giovaldir)
-
+## Tokyo Airbnb Price Prediction
 - dataset : http://insideairbnb.com/
 
 
@@ -17,29 +14,32 @@
 
 ![](tokyo-wallpaper.jpg)
 
-Airbnb has expanded its reach in various countries, including Japan, specifically Tokyo in 2010. Over time, there have been several studies indicating that the implementation of the Minpaku Law by the government in 2018 was the lowest point in the development of Airbnb in Tokyo. As time went by, Airbnb Tokyo began to rise again and in 2019 it was announced as a sponsor of the International Olympic event, the 2020 Olympics. Of course, this will have a positive impact on Airbnb entrepreneurs, who are required to know every opportunity to gain profit. The location of the Stadium in relation to Airbnb is also perceived to have a significant impact during the event, with an estimated 600,000 foreign visitors. Among these factors, one crucial aspect to obtain profit is PRICE. Here, I will try to predict prices based on a Supervised Learning approach: Regression, to assist new Airbnb entrepreneurs and provide a Recommendation System based on the approach to rating and space to help existing Airbnb entrepreneurs (who tend to have less profit) to improve their business strategies. 
-
-## STEPS
-
-- Handling Missing Values, Duplicated [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/1.FINAL%20PROJECT%20-%20Handling%20Missing%2CDuplicated%20Airbnb.ipynb)
-- Exploratory Data Analysis (EDA) Visualization with pandas, seaborn,matplotlib,folium and wordcloud [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/2.FINAL%20PROJECT%20-%20Exploratory%20Data%20Analysis%20Airbnb-2.ipynb)
-- Feature Selection with Theils U, Heatmap [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/2.FINAL%20PROJECT%20-%20Exploratory%20Data%20Analysis%20Airbnb-2.ipynb)
-- Feature Engineering with Handling Outliers, Transformer, Scaling, Adding Feature, Extracting, Spliting [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/6.FINAL%20PROJECT%20-%20Supervised%20Machine%20Learning%20Airbnb%20(Yeo%20Johnson)-2.ipynb)
-- Machine Learning Model (Linear Regression, Random Forest, KNN, XGBoost, GradientBoosting) with Hyperparameter Tuning (GridSearch) [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/6.FINAL%20PROJECT%20-%20Supervised%20Machine%20Learning%20Airbnb%20(Yeo%20Johnson)-2.ipynb)
-- Evaluation Metrics (R2,MAE,MSE,RMSE) [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/6.FINAL%20PROJECT%20-%20Supervised%20Machine%20Learning%20Airbnb%20(Yeo%20Johnson)-2.ipynb)
-- Recommendation System (Content-Based) [Jupyter](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/8.FINAL%20PROJECT%20RECOMMENDATION%20SYSTEM%20CONTENT%20BASED-2.ipynb)
-- Conclusion
-
 ## PROBLEM STATEMENT
 
-Despite the rapid growth of Airbnb in various countries, including Japan, there are several critical issues that Airbnb entrepreneurs face. Firstly, they are not aware of the strict regulations regarding the Minpaku Law requirements, which can lead to the cancellation of their operations. Secondly, they are not knowledgeable about the top-selling areas of Airbnb located near the 2020 Olympics venue, which can maximize their profits. Lastly, Airbnb entrepreneurs lack the knowledge of appropriate pricing strategies to use when renting out their Airbnb. These issues highlight the need for a solution that can provide guidance to both new and existing Airbnb entrepreneurs, assisting them in navigating the regulations, identifying profitable areas, and setting appropriate prices to improve their business strategies
+"Tokyo Airbnb Price Prediction" is an analysis and prediction project focused on the Airbnb accommodation prices in Tokyo, Japan. Airbnb has become one of the most popular platforms for travelers and tourists to find unique and affordable places to stay during their visits to Tokyo. However, when it comes to comparing prices and determining the right value for a property on Airbnb, it can be a challenging task.
+
+The main objective of this project is to develop an accurate price prediction model for Airbnb accommodations in Tokyo. The model will be based on historical data from the Airbnb website, including information about properties such as location, accommodation type, size, amenities, and previous guest reviews. By combining this data, we will leverage data analysis techniques and machine learning algorithms to build a model capable of predicting accommodation prices based on specific features.
 
 ## GOALS
 
-- To analyze the legality of Airbnb according to the "Minpaku Law" regulations that determine the maximum number of days an Airbnb can operate per year (using pandas).
 - To conduct an analysis on the growth of Airbnb located near the venues to be used in the 2020 Olympics (using pandas, folium, seaborn, matplotlib, wordcloud).
 - To predict Airbnb prices using Supervised Learning Regression as the key to renting out Airbnb and maximizing profits.
 - To provide recommendations on Airbnb space using a Content-Based Recommendation System, helping existing Airbnb entrepreneurs to optimize their profits by obtaining the best specifications based on the top 5 most profitable areas.
+
+## STEPS
+The key steps in the "Tokyo Airbnb Price Prediction" project include:
+
+- Data Collection: Gathering historical data related to Airbnb accommodations in Tokyo, including information about prices, locations, accommodation types, and other features.
+
+- Data Cleaning: Performing data cleaning and preprocessing to handle missing or invalid values and identify and address outliers.
+
+- Data Exploration: Conducting exploratory analysis to understand the relationships between variables and gain insights into the data characteristics.
+
+- Modeling: Implementing various machine learning techniques such as linear regression, nonlinear regression, or deep learning algorithms to build the price prediction model.
+
+- Model Evaluation: Evaluating the model's performance using relevant metrics such as Mean Absolute Error (MAE) or Root Mean Squared Error (RMSE).
+
+- Conclusion and Interpretation: Interpreting the prediction results to gain insights into the factors influencing Airbnb accommodation prices in Tokyo.
 
 ## DATASETS
 
@@ -107,14 +107,8 @@ Ideally, the Cost Function value of a model is zero (0), which means that the pr
 
 If the predicted value and the output are far apart, optimization is needed, one of which is using Gradient Descent.
 
-#### GRADIENT DESCENT
-*Gradient descent* is an optimization algorithm used to find parameter values (coefficients) of a function (f) that minimize the cost function.
-Gradient descent is best used when parameters cannot be calculated analytically (e.g., using linear algebra) and must be found through optimization algorithms.
-
 ### EXPLORATORY DATA ANALYSIS (general)
 The process of analyzing data to gain insights using methods such as visualizations and tables to maximize understanding and test hypotheses.
-
-[FULL EDA](https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/2.FINAL%20PROJECT%20-%20Exploratory%20Data%20Analysis%20Airbnb-2.ipynb)
 
 #### Neighbourhood
 
@@ -132,13 +126,6 @@ The process of analyzing data to gain insights using methods such as visualizati
 
 #### Amenities
 <a href="https://github.com/giovaldir"><img src="https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/Screen Shot 2020-09-15 at 13.50.40.png" width="500" height="500" alt="GiovaldiRC" ></a>
-
-### To analyze the legality of Airbnb according to the "Minpaku Law" regulations that determine the maximum number of days an Airbnb can operate per year (using pandas).
-- There are 7526 legal Airbnb listings complying with the Minpaku Law of operating up to 180 days per year. Based on the data mapping, many of these legal listings are located near the city center.
-- Previously, there were 55 neighborhoods, but after the implementation of the Minpaku Law, only 51 areas remain. Adachi, Koganei Shi, Ogasawara, and Akiruno Shi are no longer included. After researching, these areas are among the least populated Airbnb areas in Tokyo. Wikipedia research found that these four areas are located far from the city center, approximately 40-50 km away. Access to these areas is also limited, with only a few train lines and toll roads available.
-- In terms of room types, Shinjuku has the highest number of entire home/apartment listings among legal Airbnbs, while Taito has the most private rooms, shared rooms, and hotel rooms. There are not many changes in other areas, only the numbers have decreased. In terms of property type, apartments remain the most popular, with a large number of entire home/apartment listings in Shinjuku, while private rooms are available in both apartments and houses, with Shinjuku having the highest number of each. Shared rooms and hotel rooms are most commonly found in hostel properties. The most hotel rooms are located in Chuo Ku, an area known for its international-class company offices such as IBM, McKinsey & Company, Astellas Pharma, KOSÉ, Kao, Ajinomoto, and others. This is likely due to the large number of hotels in the area catering to foreign guests.
-- The price of entire home/apartment legal Airbnbs has significantly increased, while other types of rooms have decreased or remained stagnant in price. Hotel room listings stopped in 2019 due to many hotels with three-star ratings setting high prices, despite having lower quality amenities compared to Airbnb listings. Additionally, Airbnb hosts offer unique experiences, while hotel stays offer a similar experience wherever you go. Although hotel room prices briefly increased in 2016, they eventually lowered their prices in 2018, and in early 2019, terminated their partnership with Airbnb because they were unable to make a profit.
-
 
 ### To conduct an analysis on the growth of Airbnb located near the venues to be used in the 2020 Olympics (using pandas, folium, seaborn, matplotlib, wordcloud).
 - I created a new column called "position", based on the proximity of the neighbourhood to the Stadium location. It was divided into three categories for easier understanding, namely close, medium, and far. The number of close locations was slightly higher than the others. Based on research, it can be concluded that Airbnb locations close to the Stadium have a very rapid increase in the number of bookings per year. For the last 3 years, 2017, 2018, and 2019, the numbers have continued to rise to 857, 1548, 1800 respectively. And for 2020, which only has data up to the 4th month, it has already reached 510, or 1/3 of 2019.
