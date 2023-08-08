@@ -1,191 +1,140 @@
-## Tokyo Airbnb Price Prediction
+# Tokyo Airbnb Price Prediction & Listing Recommendation
 - dataset : http://insideairbnb.com/
 
 
-#### Programming Languages
-
-  <img align="left" alt="Python" width="26px" src="https://raw.githubusercontent.com/rhoit/mode-icons/dump/icons/python.png" />
-  <img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
-  <img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
-  <img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
-
-<br />
-<br />
-
 ![](tokyo-wallpaper.jpg)
 
-## PROBLEM STATEMENT
 
-"Tokyo Airbnb Price Prediction" is an analysis and prediction project focused on the Airbnb accommodation prices in Tokyo, Japan. Airbnb has become one of the most popular platforms for travelers and tourists to find unique and affordable places to stay during their visits to Tokyo. However, when it comes to comparing prices and determining the right value for a property on Airbnb, it can be a challenging task.
+# Business Understanding
+## Problem Statement
 
-The main objective of this project is to develop an accurate price prediction model for Airbnb accommodations in Tokyo. The model will be based on historical data from the Airbnb website, including information about properties such as location, accommodation type, size, amenities, and previous guest reviews. By combining this data, we will leverage data analysis techniques and machine learning algorithms to build a model capable of predicting accommodation prices based on specific features.
+In recent years, the popularity of Airbnb accommodations has grown rapidly, and Tokyo, being one of the most vibrant and culturally rich cities in the world, attracts millions of tourists annually. However, for travelers and property owners alike, accurately predicting the price of an Airbnb listing and recommending suitable spaces for guests can be challenging due to various factors that influence pricing and user preferences.
 
-## GOALS
+The objective of this Data Science project titled "Tokyo Airbnb Price Prediction & Listing Recommendation" is to develop a comprehensive model that can predict the price of Airbnb listings in Tokyo accurately. Additionally, the project aims to provide personalized recommendations for spaces that align with guests' preferences and requirements.
 
-- To conduct an analysis on the growth of Airbnb located near the venues to be used in the 2020 Olympics (using pandas, folium, seaborn, matplotlib, wordcloud).
-- To predict Airbnb prices using Supervised Learning Regression as the key to renting out Airbnb and maximizing profits.
-- To provide recommendations on Airbnb space using a Content-Based Recommendation System, helping existing Airbnb entrepreneurs to optimize their profits by obtaining the best specifications based on the top 5 most profitable areas.
+## Goals
 
-## STEPS
+- Accurate Price Prediction: Develop a reliable Tokyo Airbnb price prediction model to aid hosts in setting optimal listing prices and maximizing revenue.
+- Enhanced User Experience: Build a personalized recommendation system that suggests suitable Airbnb spaces to travelers based on their preferences, improving user satisfaction.
+- Market Insights: Gain valuable insights into key factors influencing Airbnb prices in Tokyo to inform property management and investment decisions.
+
+## Steps
 The key steps in the "Tokyo Airbnb Price Prediction" project include:
 
-- Data Collection: Gathering historical data related to Airbnb accommodations in Tokyo, including information about prices, locations, accommodation types, and other features.
+- Data Understanding:
+Collect relevant data from Airbnb sources, including listing details, descriptions, amenities, review scores, and historical booking data.
+Explore and analyze the collected data to understand its structure, quality, and potential issues.
+Identify data types, missing values, outliers, and patterns within the dataset.
+- Data Preparation:
+Cleanse and preprocess the data by handling missing values, outliers, and inconsistencies.
+Perform feature engineering to create informative features from available data, such as sentiment analysis of reviews and text analysis of descriptions.
+Prepare the data for modeling by encoding categorical variables, scaling numerical features, and splitting the dataset into training and testing sets.
+- Modeling:
+Select appropriate regression algorithms for price prediction, such as Linear Regression, Random Forest, XGBoost, and Support Vector Regression (SVR).
+Train and tune the selected models using the training dataset.
+Evaluate model performance using appropriate evaluation metrics like Mean Squared Error (MSE), R-squared, and Root Mean Squared Error (RMSE).
+- Evaluation:
+Compare the performance of different regression models to identify the most accurate and reliable model for price prediction.
+Validate the model's ability to generalize by evaluating its performance on the testing dataset.
+Assess the model's prediction accuracy against the project's objectives and business requirements.
+- Deployment:
+Deploy the selected price prediction model to a web-based platform to make it accessible to users.
+Develop a user interface that allows users to input listing features and receive predicted rental prices.
+Ensure the deployed model's reliability, scalability, and responsiveness.
 
-- Data Cleaning: Performing data cleaning and preprocessing to handle missing or invalid values and identify and address outliers.
-
-- Data Exploration: Conducting exploratory analysis to understand the relationships between variables and gain insights into the data characteristics.
-
-- Modeling: Implementing various machine learning techniques such as linear regression, nonlinear regression, or deep learning algorithms to build the price prediction model.
-
-- Model Evaluation: Evaluating the model's performance using relevant metrics such as Mean Absolute Error (MAE) or Root Mean Squared Error (RMSE).
-
-- Conclusion and Interpretation: Interpreting the prediction results to gain insights into the factors influencing Airbnb accommodation prices in Tokyo.
-
-## DATASETS
+## Dataset
 
 ![](https://github.com/giovaldir/Predicting-Airbnb-Prices-using-Regression/blob/d5ba15952c9324d480b2b9a71e5b24993659ff8a/Screenshot%20(1488).png)
-### METHODS
-The method used in this project is regression, which aims to predict the price of Airbnb rentals in Tokyo based on factors such as location, amenities, room type, number of bedrooms, and more. I chose regression for this project because, as I learned from "Machine Learning Specialization by Andrew NG (Stanford)," it is perfect for predicting a numerical value from infinitely many possible values, which is precisely the task at hand in this project: predicting the price of an Airbnb rental.
 
-#### REGRESSION
-*Regression* is a statistical method used to estimate the association relationship between a dependent variable (Y) and one or more independent variables (X1, X2, X3, ..., Xn), relationship can be linear or non-linear and it usually has continuous output. 
+### Method
+- Price Prediction
 
-- Dependent variable (response variable) -> measures an outcome of a study
+Regression Algorithms: Different regression algorithms are used for price prediction, including Linear Regression, Random Forest, XGBoost, and SVR. These algorithms learn patterns from historical data to predict rental prices.
 
-- Independent variable (explanatory variables) explain changes in a response variable
+Model Evaluation: Models are evaluated using various metrics such as Mean Squared Error (MSE), R-squared, and Root Mean Squared Error (RMSE). These metrics measure the accuracy and goodness of fit of the model's predictions.
 
-Purpose of regression -> predict the value of dependent variable given the values of independent variables.
+- Listing Recommendation
 
-Why we need Regression ? helpful when companies would like to know about related factors that have significant impact on their key performance indicators. it also helps to create a new hypothesis that assist companies to improve their performance and hence better decision making
+Cosine Similarity: For the recommendation system, a content-based approach is used. Cosine similarity is calculated between different listings based on features such as listing descriptions, amenities, and review scores.
 
-Types of Regression:
-- Simple Regression -> One independent variable: Linear and non-linear
+User Preferences: User preferences and historical booking data are used to personalize recommendations. Listings with higher cosine similarity scores are recommended based on their similarity to the user's preferences.
 
-Y = B1X + B0 + E or some source mentioned Y = AX + B
+# Data Understanding
+Gather data from various sources, including Airbnb listings, geospatial datasets, user reviews, and property amenities information. Explore the data to gain insights into its structure, quality, and potential issues that need to be addressed during data cleaning and preprocessing.
 
-    Y -> dependent variable
-    B0 -> population Y-intercept/titik potong (naik turun garis linear)
-    B1 -> population slope (kemiringan garis)
-    X1 -> independent variable
-    E -> Random error
+Listing Dataset
 
-- Multiple Regression -> More than one independent variable: linear and non-linear (X1, X2, X3, ..., Xn)
+![](https://github.com/giovaldir/Tokyo-Airbnb-Price-Prediction---Listing-Recommendation/blob/f888445ddeed29b49e8c679da793947c4f8f23de/Screenshot%20(2322).png)
 
-Y = B1X1 + B2X2 + B3X3 + ... + BkXk + B0 + E
+Calendar Dataset
 
-Simple Linear vs Multiple Linear 
+![](https://github.com/giovaldir/Tokyo-Airbnb-Price-Prediction---Listing-Recommendation/blob/f888445ddeed29b49e8c679da793947c4f8f23de/Screenshot%20(2323).png)
 
-In SLR, we have one dependent variable (price) and one independent variable (size). If we want to determine the effect of the dependent variable (output) on more than one independent variable (input data, also known as predictors), we need to use Multiple Linear Regression (MLR). There is also Polynomial which is used to capture non-linear relationships between variables, where this regression uses quadratic functions. However, many mathematics professors also say that a polynomial function is linear if it has an order or degree of 1, and anything above that is considered non-linear.
+Review Dataset
 
-When to use simple, multiple, and polynomial regression ? 
+![](https://github.com/giovaldir/Tokyo-Airbnb-Price-Prediction---Listing-Recommendation/blob/f888445ddeed29b49e8c679da793947c4f8f23de/Screenshot%20(2324).png)
 
-Actually it depends on the question we want to answer. If we want to find the relationship between one dependent variable and one independent variable, we can use simple or polynomial regression. If we want to find the relationship between one dependent variable and multiple independent variables, we use multiple linear regression.
+Numerical
 
-So, if we only want to find the relationship with one independent variable, when should we use simple and when should we use polynomial regression? 
+![](https://github.com/giovaldir/Tokyo-Airbnb-Price-Prediction---Listing-Recommendation/blob/b69aba019a52a642cd1021d2e1ac5730742600d9/histograms%20(1).jpg)
 
-The answer is based on how well our model fits the original data. If a simple linear regression model already fits well, then it is sufficient to use that model alone. However, if it doesn't fit well and the function looks like a polynomial function (quadratic function), then we can try to approximate it using the polynomial regression method. There are several types of Regression Algorithms in ML, including:
+Categorical
 
-- Linear Regression [more about](https://github.com/giovaldir/Predicting-Airbnb-Prices-using-Regression/blob/550f19688578df745a5106a277222c3c7437428f/Linear_Regression.ipynb)
-- Polynomial Regression
-- Random Forest Regressor
-- Super Vector Regressor
-- Decision Tree Regressor
-- XGB Regressor
-- and etc.
+![](https://github.com/giovaldir/Tokyo-Airbnb-Price-Prediction---Listing-Recommendation/blob/b69aba019a52a642cd1021d2e1ac5730742600d9/countplots%20(1).jpg)
+
+# Data Preparation
+- Data Cleaning:
+
+Handling Missing Values: Identify columns with missing values and decide how to handle them. Depending on the significance and amount of missing data, you might choose to impute missing values with mean, median, mode, or a more advanced technique like regression imputation or using external data sources.
+
+Outlier Detection: Identify outliers that could negatively impact model performance. Outliers can be detected using statistical methods, visualization, or domain knowledge. Decide whether to remove, transform, or keep outliers based on their impact on the analysis.
+
+- Feature Engineering:
+
+Creating New Features: Generate new features that provide additional insights into the data. For example, you could create a feature representing the number of available amenities in a listing or calculate the ratio of positive to total reviews as a sentiment feature.
+
+Feature Scaling: Normalize numerical features to bring them to a similar scale. Common techniques include min-max scaling or z-score normalization. This ensures that features with different scales do not dominate the modeling process.
+
+- Handling Categorical Data:
+
+Encoding Categorical Variables: Convert categorical variables into numerical format that machine learning algorithms can understand. Common methods include one-hot encoding, label encoding, and target encoding. Each method has its advantages based on the nature of the data and the algorithm used.
+
+- Splitting the Dataset:
+
+Training and Testing Sets: Divide the dataset into training and testing sets. The training set is used to train the machine learning models, while the testing set is used to evaluate their performance. A common split ratio is 70-30 or 80-20.
+
+# Modeling and Evaluation
+
+|       Model       |     MSE Train      |      MSE Test      |    R^2 Train     |    R^2 Test     |
+|-------------------|--------------------|--------------------|------------------|-----------------|
+| Linear Regression |  1.850886e+07      |  1.811550e+07      |  0.395847        |  0.411155       |
+| Random Forest     |  5.623683e+03      |  3.936338e+04      |  0.999816        |  0.998720       |
+| XGBoost           |  1.204195e+05      |  1.800360e+05      |  0.996069        |  0.994148       |
+| SVR               |  3.480605e+07      |  3.510720e+07      | -0.136114        | -0.141162       |
+
+Linear Regression:
+- The linear regression model achieved an MSE (Mean Squared Error) of approximately 1.85e+07 on the training data and 1.81e+07 on the test data.
+- The R-squared value, denoted as R^2, indicates that around 39.6% of the variance in the target variable can be explained by the model's predictions on the training data, and about 41.1% on the test data.
+
+Random Forest:
+- The random forest model demonstrated strong performance with significantly lower MSE values of 5.62e+03 on the training data and 3.94e+04 on the test data.
+- The high R^2 values close to 1 indicate that the model fits the training data exceptionally well (99.98%), and it generalizes effectively to the test data (99.87%).
+
+XGBoost:
+- The XGBoost model performed well with an MSE of approximately 1.20e+05 on the training data and 1.80e+05 on the test data.
+- The R^2 values, close to 1, suggest that the XGBoost model captures the underlying patterns in the training data (99.61%) and maintains strong generalization to the test data (99.41%).
+
+SVR (Support Vector Regression):
+- The SVR model yielded higher MSE values, indicating less accurate predictions, with MSE values of 3.48e+07 on the training data and 3.51e+07 on the test data.
+- The negative R^2 values (-0.14) suggest that the SVR model is not a good fit for the data, as it performs worse than a horizontal line representing the mean of the target variable.
+
+In summary, the random forest and XGBoost models outperformed the linear regression and SVR models in terms of prediction accuracy, with strong R^2 values and lower MSE values. These models are better suited for capturing the complex relationships in the dataset, leading to more accurate price predictions and listing recommendations in the context of Tokyo Airbnb listings.
+
+# Listing Recommendation
+
+The process of providing listing recommendations by looking at Airbnb listings that have a review score rating of >90 in the most profitable areas/neighborhoods. The target of this recommendation is established Airbnb entrepreneurs who have been in business but have not been profitable enough. By providing this recommendation, the established Airbnb entrepreneur will know what the market likes, what specifications are actually needed for their Airbnb in that neighborhood, and of course, it will make it easier for the entrepreneur to improve their previous failures.
 
 
-#### COST FUNCTION
-The cost function, also known as the loss function or error function, is a function used to determine the difference between the predicted output generated by a mathematical model and the actual output. One example of this in regression cases includes:
-
-- Mean Squared Error (MSE)
-- Mean Absolute Error (MAE)
-- Root Mean Squared Error (RMSE)
-- and etc.
-
-The output of the Cost function is a decimal number that indicates the difference between the predicted output and the actual output (sometimes also called the target output) as described above. The larger the value of the Cost function, the greater the cost, loss, or error of the model used.
-Ideally, the Cost Function value of a model is zero (0), which means that the predicted output is the same as the actual output. However, in reality, many factors make this ideal condition difficult to achieve, such as data distorted by noise, incomplete information, and so on. Therefore, what is done is to minimize the cost/loss/error, where if the result of the Cost Function approaches zero, the model will have better performance in predicting future outcomes.
-
-If the predicted value and the output are far apart, optimization is needed, one of which is using Gradient Descent.
-
-### EXPLORATORY DATA ANALYSIS (general)
-The process of analyzing data to gain insights using methods such as visualizations and tables to maximize understanding and test hypotheses.
-
-#### Neighbourhood
-
-![](Neighbourhood-2.png)
-
-
-#### Numerical Univariate Visualization
-
-![](Numerical-2.png)
-
-
-#### Categorical Univariate Visualization
-
-![](Categorical-2.png)
-
-#### Amenities
-<a href="https://github.com/giovaldir"><img src="https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/Screen Shot 2020-09-15 at 13.50.40.png" width="500" height="500" alt="GiovaldiRC" ></a>
-
-### To conduct an analysis on the growth of Airbnb located near the venues to be used in the 2020 Olympics (using pandas, folium, seaborn, matplotlib, wordcloud).
-- I created a new column called "position", based on the proximity of the neighbourhood to the Stadium location. It was divided into three categories for easier understanding, namely close, medium, and far. The number of close locations was slightly higher than the others. Based on research, it can be concluded that Airbnb locations close to the Stadium have a very rapid increase in the number of bookings per year. For the last 3 years, 2017, 2018, and 2019, the numbers have continued to rise to 857, 1548, 1800 respectively. And for 2020, which only has data up to the 4th month, it has already reached 510, or 1/3 of 2019.
-- For the average price, for those located close to the Stadium, it has been steadily increasing every year, but the most significant increase was seen in the last two years, 2019-2020, which was 30%. When converted to rupiah, it's around 477,680.
-- In 2020, the accommodations themselves for locations that are close increased by 11% from 2019, and by 48% from 2018, a nearly two-fold increase.
-- For bedrooms, from 2019, the price for a single room has increased by 7-8%. The most expensive area is currently Shibuya, with an average price of 26,317/3 million rupiah. Who doesn't know Shibuya? Shibuya Crossing is the busiest pedestrian crossing in the world, nicknamed the 24-hour non-stop area. The top 5 areas are Shibuya Ku', 'Shinjuku Ku', 'Toshima Ku', 'Taito Ku', 'Sumida Ku, all of which are equally interesting, with Shibuya being the most expensive.
-
-### To predict Airbnb prices using Supervised Learning Regression as the key to renting out Airbnb and maximizing profits.
-### EVALUATION METRICS
-- R2, MAE,MSE,RMSE
-
-| Algorithm | R square | MAE | MSE | RMSE | 
-| --- | --- | --- | --- | --- | 
-| XGBoost | 0.78 | 0.2 | 0.2 | 0.4 |
-| Linear Regression | 0.72 | 0.3 | 0.3 | 0.5 |
-| Polynomial Regression | 0.61 | 0.2 | 0.2 | 0.4 |
-| SVR | 0.75 | 0.3 | 0.3 | 0.5 |
-| Decision Tree | 0.67 | 0.4 | 0.4 | 0.6 |
-| Random Forest | 0.74 | 0.2 | 0.2 | 0.4 |
-
-- Based on my modeling, I found that the best algorithm model is XGBoost compared to others.
-- Based on the above search results, the R square score is quite good, which is 0.78, indicating accuracy in predicting the actual value or accuracy in the case of classification.
-- Based on the above results, the MSE is satisfactory to me because MSE indicates the error obtained from the difference between the actual and predicted values, squared. The smaller the error, the better the model.
-- Based on the above results, the MAE is also very satisfactory to me because the MAE indicates the error obtained from the difference between the actual and predicted values, which is absolute, and it is good if it is small or close to 0.
-
-### To provide recommendations on Airbnb space using a Content-Based Recommendation System, helping existing Airbnb entrepreneurs to optimize their profits by obtaining the best specifications based on the top 5 most profitable areas.
-### RECOMMENDATION SYSTEM
-
-The process of providing space recommendations by looking at Airbnb listings that have a review score rating of 100 in the most profitable areas/neighborhoods. The target of this recommendation is established Airbnb entrepreneurs who have been in business but have not been profitable enough. By providing this recommendation, the established Airbnb entrepreneur will know what the market likes, what specifications are actually needed for their Airbnb in that neighborhood, and of course, it will make it easier for the entrepreneur to improve their previous failures.
-
-<a href="https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/8.FINAL%20PROJECT%20RECOMMENDATION%20SYSTEM%20CONTENT%20BASED-2.ipynb"><img src="https://github.com/giovaldir/FINAL-PROJECT-TOKYO-AIRBNB/blob/master/Recommendation System.png" alt="GiovaldiRC" ></a>
-click for more information
-
-### CONCLUSION
-
-After examining the impact of the Minpaku Law, it is very apparent that there was a decrease in the number of Airbnbs, some neighborhoods were no longer able to participate in this business, and there was a decrease in prices in the years 2017-2018. However, with the 2020 Olympics, Airbnb as a sponsor was able to revive and become popular again. After 2018, prices continued to skyrocket, especially for those near the 2020 Olympics Venue. So, in terms of price impact, for entrepreneurs who want to start an Airbnb business, they should look at the proximity to the Venue as a promising factor, such as "Shibuya Ku', 'Shinjuku Ku', 'Toshima Ku', 'Taito Ku', 'Sumida Ku", which continue to experience increases of even up to 30% and continue to rise until the beginning of 2020. After obtaining various advantages of these locations according to Forbes, we can also see the trend of several types of rooms offered in Tokyo, two of which are promising, namely Entire home/Apt and Private room, which emphasize good privacy for visitors. Then, for experienced Airbnb entrepreneurs, from the results of the Recommender System, there are several Airbnbs that meet the criteria for spaces that can be used as references, which have the best ratings in some profitable areas. This can improve the business system of these experienced entrepreneurs. After all the needs for the place and specifications are fulfilled, don't forget about the details, such as some equipment that needs to be provided in your Airbnb in Tokyo, such as Heater, Washer, Wifi, Smoke Alarm, etc. With these things, price determination can be maximized and problems in this project can be solved.
-
-### REFERENCES
-
-- https://www.forbes.com/sites/sofialottopersio/2019/11/18/airbnb-olympic-partnership-ahead-ipo/#16377abb57a1
-- https://www.businessinsider.com/airbnb-wins-reported-500-million-partnership-for-the-2020-tokyo-olympics-2019-11?r=US&IR=T
-- https://www.nytimes.com/2019/10/01/travel/the-tokyo-2020-olympics-what-you-need-to-know.html
-- https://mainichi.jp/english/articles/20180615/p2a/00m/0na/028000c
-- https://phys.org/news/2018-06-airbnb-cancel-japan-law.html#:~:text=Rental%20site%20Airbnb%20said%20Thursday,for%20the%20%22extraordinary%20disruption.%22
-- https://www.japantimes.co.jp/community/2018/04/01/how-tos/new-minpaku-law-will-alter-japans-rental-hospitality-landscape/
-- https://www.olympic.org/tokyo-2020
-- https://www.sakura-house.com/?gclid=CjwKCAjwzIH7BRAbEiwAoDxxTnL4DxKBxphjUND7Vgihq2WgdUgxd7Q4M723hEmUpErQp0KtV5-WtRoCrLcQAvD_BwE
-- https://www.airbnb.jp/
+![](https://github.com/giovaldir/Tokyo-Airbnb-Price-Prediction---Listing-Recommendation/blob/b69aba019a52a642cd1021d2e1ac5730742600d9/Recommendation%20System.png)
 
 ### Thank You
-
-[instagram]: https://www.instagram.com/giovaldirch
-[linkedin]: https://www.linkedin.com/in/grm20222
-
-[<img align="left" alt="giovaldir | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="giovaldir | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-
-
-
-<br />
-<br />
-
-
