@@ -82,6 +82,10 @@ Categorical
 
 ![](https://github.com/giovaldir/Tokyo-Airbnb-Price-Prediction---Listing-Recommendation/blob/b69aba019a52a642cd1021d2e1ac5730742600d9/countplots%20(1).jpg)
 
+Map
+![](https://github.com/giovaldir/Tokyo-Airbnb-Price-Prediction---Listing-Recommendation/blob/acbca16c0a420dc25b2874ca4fc82c3c14ead790/Screenshot%20(2325).png)
+
+
 # Data Preparation
 - Data Cleaning:
 
