@@ -1,7 +1,7 @@
 # Tokyo Airbnb Price Prediction & Listing Recommendation
 by Giovaldi Ramadhan
 - dataset : http://insideairbnb.com/
-
+- code : [Click here to check the code](https://github.com/giovaldir/Tokyo-Airbnb-Price-Prediction---Listing-Recommendation/blob/5e2c75bbbc8bd66f0cddbdab90d3538589d5a989/1.%20Tokyo%20Airbnb%20Price%20Prediction%20%26%20Listing%20Recommendation.ipynb)
 
 ![](tokyo-wallpaper.jpg)
 
